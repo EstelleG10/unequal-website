@@ -25,9 +25,9 @@ export default function HomePage() {
 
       {/* Main Content */}
       <div className="relative z-10 bg-black/80 p-10 rounded-xl text-white text-center max-w-3xl shadow-lg border-4 border-dashed border-[#b33000] mt-16">
-        <h1 className="text-6xl font-extrabold tracking-tight drop-shadow-lg">𓏋 𓏏 𓏊 UNEQUAL 𓏊 𓏏 𓏋</h1>
+        <h1 className="text-6xl font-extrabold tracking-tight drop-shadow-lg">𓏋 𓏏 𓏊 UNEQUAL PIZZA PIZZA 𓏊 𓏏 𓏋</h1>
         <p className="text-lg mt-4 text-gray-300 leading-relaxed">
-          <span className="font-semibold text-white">UNEQUAL PIZZA PIZZA</span> is an interactive course exploring power, inequality, and ancient societies. Through hands-on experimentation, we study
+          <span className="font-semibold text-white">UNEQUAL</span> is an interactive course exploring power, inequality, and ancient societies. Through hands-on experimentation, we study
           <a href="/brewing" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300"> brewing</a>,
           analyze <a href="/trace-residue" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300">trace residues</a>,
           and curate artifacts in a <a href="/museum" className="text-[#B38054] hover:underline font-extrabold hover:text-[#C19A6B] transition-all duration-300">museum exhibit</a>.
