@@ -40,7 +40,7 @@ export default function BrewingPage() {
             {/* Brewing Steps */}
             <div className="mt-10 space-y-6">
                 {[
-                    { title: "Step 1: Gathering Ingredients", image: "/barley.JPG", description: "The first step was sourcing ancient grains like barley, spelt, and wheat, alongside herbs and fruits for flavoring." },
+                    { title: "Step 1: Gathering Ingredients", image: "/barley.JPG", description: "The first step was sourcing ancient grains like barley and emmer and gathering the needed lab equipment such as iodine, thermometer, beaker, hot plate, and other tools." },
                     { title: "Step 2: Preparing the Tools", image: "/ceram.JPG", description: "We prepared traditional brewing tools such as ceramic fermenters and wooden spoons, mimicking ancient methods." },
                     { title: "Step 3: Brewing Process", image: "/pour.JPG", description: "We followed ancient brewing techniques such as using wild yeasts for fermentation and fermenting in natural vessels." },
                     { title: "Step 4: Fermentation", image: "/BEERSS.JPG", description: "The brewing process involved natural fermentation in open air, allowing the ingredients to ferment and mature." },
@@ -60,7 +60,14 @@ export default function BrewingPage() {
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Science Behind Brewing</h2>
                 <p className="mt-4 text-lg">
-                   Beta amalasye and alpha amalasye.
+                   While attending one of the brewing group's meetings I had the chance to gain a deeper understanding
+                   of the brewing process and all of the science that goes into it. While working with --- and --- two ---, the 
+                   brewing group members had a chance to not only learn about the process of the past but also to learn about the science 
+                   of brewing of the present. 
+                   Traditionally, the process starts with grains like barley and emmer (an early form of wheat) being malted. The malting causes
+                   germination which activates the enzymes that we need to convert starches to fermentable sugars. Using the pot created by --- and designed base off
+                   of ancient pot remains, the pot was used to create a filter that allowed water at a temperature of 150 degrees F to percolat through the malt. 
+                   Using a temperature of 150 ensured that we can keep both alpha and beta amylases working efficiently 
                 </p>
             </div>
 
