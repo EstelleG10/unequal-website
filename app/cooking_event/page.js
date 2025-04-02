@@ -81,7 +81,7 @@ export default function CookingEventPage() {
             </div>
             {/* Event image */}
             <div className="mt-8 flex justify-center">
-                <img src="/BEETS.PNG" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
+                <img src="/slaying.PNG" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
             </div>
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Feast Unfolds</h2>
@@ -93,7 +93,7 @@ export default function CookingEventPage() {
             </div>
             {/* Event image */}
             <div className="mt-8 flex justify-center">
-                <img src="/ate.PNG" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
+                <img src="/slaying.PNG" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
             </div>
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">Savoring Time and Tradition</h2>
