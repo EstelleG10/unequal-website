@@ -52,8 +52,8 @@ export default function CookingEventPage() {
                     While the event itself was a spectacle of scholarship and sensory experience, my role as a documentarian shaped my perspective in unexpected ways. Rather than simply experiencing the feast, I found myself behind the camera, capturing the process as it unfolded—from candid interviews to the quiet intensity of food preparation. This article offers a glimpse behind the scenes, where collaboration, problem-solving, and personal reflections brought the past to life.
                 </p>
             </div>
-             {/* Event image */}
-             <div className="mt-8 flex justify-center">
+            {/* Event image */}
+            <div className="mt-8 flex justify-center">
                 <img src="/schoolsquad.png" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
             </div>
 
@@ -65,8 +65,8 @@ export default function CookingEventPage() {
                     As Barjamovic et al. (2019) note in Food in Ancient Mesopotamia from Ancient Mesopotamia Speaks, “…food defines who we are” (109). Feasting was more than just nourishment in the ancient world—it played a fundamental role in reinforcing hierarchies, shaping identity, and even fostering a connection to the divine. The course structure reflects this reality by blurring the lines between academic theory and hands-on experimental archaeology. Instead of merely studying ancient societies in theory, we immerse ourselves in their practices, bridging the gap between research and experience.
                 </p>
             </div>
-             {/* Event image */}
-             <div className="mt-8 flex justify-center">
+            {/* Event image */}
+            <div className="mt-8 flex justify-center">
                 <img src="/slaying.png" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
             </div>
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
@@ -79,8 +79,8 @@ export default function CookingEventPage() {
                     This was no minor inconvenience. The hotplates, crucial for cooking the lamb stew, had lost power. An electrician was summoned, and for a moment, all seemed well—until the power tripped again. Then once more. Meanwhile, in the Student Lounge, where additional cooking stations had been relocated, the same issue persisted. As if that weren’t enough, word arrived that the catering team—responsible for transporting additional entrees—had suffered a tire blowout on the way to the event. The situation seemed to spiral into chaos. Yet, remarkably, no one lost their composure. Students and faculty adapted, finding alternative ways to keep the event moving.
                 </p>
             </div>
-             {/* Event image */}
-             <div className="mt-8 flex justify-center">
+            {/* Event image */}
+            <div className="mt-8 flex justify-center">
                 <img src="/BEETS.PNG" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
             </div>
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
@@ -91,8 +91,8 @@ export default function CookingEventPage() {
                     Additionally, biologists with Yale’s School of Medicine, Master Brewer Vannessa Todoro and Yeast Specialist Zane Johnson, carefully recreated brews—both alcoholic and non-alcoholic—following ancient fermentation techniques and ingredients, adding another layer of authenticity to the experience. More than just a meal, the night became a sensory journey. The smells of ancient spices, the taste of slow-cooked stews, and the warmth of shared food created a moment of deep connection between students, scholars, attendees, and a culinary tradition thousands of years old.
                 </p>
             </div>
-             {/* Event image */}
-             <div className="mt-8 flex justify-center">
+            {/* Event image */}
+            <div className="mt-8 flex justify-center">
                 <img src="/ate.PNG" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
             </div>
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
@@ -108,16 +108,22 @@ export default function CookingEventPage() {
             {/* Video Section */}
             <div className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
                 <h2 className="text-3xl font-bold text-orange-600">Event Video</h2>
-                <p className="text-lg text-gray-300 mt-2">Watch highlights from the event.</p>
+                <p className="text-lg text-gray-300 mt-2">Watch highlights from the event!</p>
 
                 <div className="mt-4 flex justify-center">
-                    <video className="rounded-lg shadow-lg w-full max-w-3xl" controls poster="/class.JPG">
-                        <source src="/event-video.mp4" type="video/mp4" />
-                        <source src="/NELC 120 2.18.25 Ancient Recipes - SD 480p.mov" type="video/webm" />
-                        <p className="text-gray-400">Your browser does not support the video tag.</p>
-                    </video>
+                    <div className="w-full max-w-3xl aspect-video rounded-lg overflow-hidden shadow-lg">
+                        <iframe
+                            className="w-full h-full"
+                            src="https://www.youtube.com/embed/07ca_bVZaCc"
+                            title="Event Video"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </div>
+
     );
 }
