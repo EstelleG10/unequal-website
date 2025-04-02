@@ -44,7 +44,7 @@ export default function BrewingPage() {
                     { title: "Step 2: Preparing the Tools", image: "/ceram.JPG", description: "We prepared traditional brewing tools such as ceramic fermenters and wooden spoons, mimicking ancient methods." },
                     { title: "Step 3: Brewing Process", image: "/pour.JPG", description: "We followed ancient brewing techniques such as using wild yeasts for fermentation and fermenting in natural vessels." },
                     { title: "Step 4: Fermentation", image: "/BEERSS.JPG", description: "The brewing process involved natural fermentation in open air, allowing the ingredients to ferment and mature." },
-                    { title: "Step 5: Tasting & Reflection", image: "/placeholder5.jpg", description: "Finally, we tasted the brews and compared them to modern beers, reflecting on the complexity and flavor differences." }
+                    { title: "Step 5: Tasting & Reflection", image: "/BEV.JPG", description: "Finally, we tasted the brews and compared them to modern beers, reflecting on the complexity and flavor differences." }
                 ].map((step, index) => (
                     <div key={index} className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg">
                         <h3 className="text-2xl font-bold text-orange-600">{step.title}</h3>

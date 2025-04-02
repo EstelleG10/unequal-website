@@ -31,6 +31,7 @@ export default function CookingEventPage() {
                 <h2 className="text-3xl font-extrabold drop-shadow-md">A Culinary and Archaeological Experiment</h2>
                 <p className="text-lg text-orange-600 mt-2">Exploring ancient recipes and brewing techniques.</p>
                 <p className="text-md text-grey-300 font-semibold mt-1">February 18th, 2025</p>
+                <p className="text-md text-grey-300 font-semibold mt-1">Words by Katie Marshall </p>
             </div>
 
             {/* Event Poster */}
@@ -51,6 +52,11 @@ export default function CookingEventPage() {
                     While the event itself was a spectacle of scholarship and sensory experience, my role as a documentarian shaped my perspective in unexpected ways. Rather than simply experiencing the feast, I found myself behind the camera, capturing the process as it unfolded—from candid interviews to the quiet intensity of food preparation. This article offers a glimpse behind the scenes, where collaboration, problem-solving, and personal reflections brought the past to life.
                 </p>
             </div>
+             {/* Event image */}
+             <div className="mt-8 flex justify-center">
+                <img src="/schoolsquad.png" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
+            </div>
+
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">Framing the Moment</h2>
                 <p className="mt-2 text-lg leading-relaxed">
@@ -58,6 +64,10 @@ export default function CookingEventPage() {
                     <br /><br />
                     As Barjamovic et al. (2019) note in Food in Ancient Mesopotamia from Ancient Mesopotamia Speaks, “…food defines who we are” (109). Feasting was more than just nourishment in the ancient world—it played a fundamental role in reinforcing hierarchies, shaping identity, and even fostering a connection to the divine. The course structure reflects this reality by blurring the lines between academic theory and hands-on experimental archaeology. Instead of merely studying ancient societies in theory, we immerse ourselves in their practices, bridging the gap between research and experience.
                 </p>
+            </div>
+             {/* Event image */}
+             <div className="mt-8 flex justify-center">
+                <img src="/slaying.png" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
             </div>
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">Stirring the Unexpected</h2>
@@ -69,6 +79,10 @@ export default function CookingEventPage() {
                     This was no minor inconvenience. The hotplates, crucial for cooking the lamb stew, had lost power. An electrician was summoned, and for a moment, all seemed well—until the power tripped again. Then once more. Meanwhile, in the Student Lounge, where additional cooking stations had been relocated, the same issue persisted. As if that weren’t enough, word arrived that the catering team—responsible for transporting additional entrees—had suffered a tire blowout on the way to the event. The situation seemed to spiral into chaos. Yet, remarkably, no one lost their composure. Students and faculty adapted, finding alternative ways to keep the event moving.
                 </p>
             </div>
+             {/* Event image */}
+             <div className="mt-8 flex justify-center">
+                <img src="/BEETS.PNG" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
+            </div>
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Feast Unfolds</h2>
                 <p className="mt-2 text-lg leading-relaxed">
@@ -76,6 +90,10 @@ export default function CookingEventPage() {
                     <br /><br />
                     Additionally, biologists with Yale’s School of Medicine, Master Brewer Vannessa Todoro and Yeast Specialist Zane Johnson, carefully recreated brews—both alcoholic and non-alcoholic—following ancient fermentation techniques and ingredients, adding another layer of authenticity to the experience. More than just a meal, the night became a sensory journey. The smells of ancient spices, the taste of slow-cooked stews, and the warmth of shared food created a moment of deep connection between students, scholars, attendees, and a culinary tradition thousands of years old.
                 </p>
+            </div>
+             {/* Event image */}
+             <div className="mt-8 flex justify-center">
+                <img src="/ate.PNG" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
             </div>
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">Savoring Time and Tradition</h2>
