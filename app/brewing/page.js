@@ -54,7 +54,7 @@ export default function BrewingPage() {
             <div className="text-center mt-6">
                 <h1 className="text-7xl font-extrabold drop-shadow-md">The Brewing Group</h1>
                 <p className="text-lg text-orange-600 mt-2">Recreating Ancient Brewing Techniques.</p>
-                <p className="text-lg text-white mt-2">Words by Estelle Gerber</p>
+                <p className="text-lg text-white mt-2">Words by ----</p>
             </div>
 
             {/* Main image */}
@@ -69,7 +69,7 @@ export default function BrewingPage() {
             {/* Project Overview */}
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Task at Hand</h2>
-                <p className="mt-4 text-lg">
+                <p className="mt-6 text-xl">
                     The brewing group embarked on an ambitious journey - recreating recipes of the past from ancient Egypt and Mesopotamia. The goal was to revive forgotten techniques and explore the flavors created through their ancient brewing practices.
                 </p>
             </div>
@@ -80,22 +80,22 @@ export default function BrewingPage() {
                     {
                         title: "Step 1: Gathering Ingredients",
                         image: "/barley.JPG",
-                        description: "We first sourced ancient grains like barley and emmer as well as gathered the needed lab equipment such as iodine, thermometer, beakers, hot plates, and other tools.",
+                        description: "First, we sourced ancient grains like barley and emmer as well as gathered the needed lab equipment such as iodine, thermometer, beakers, hot plates, and other tools.",
                     },
                     {
                         title: "Step 2: Preparing the Tools",
                         image: "/ceram.JPG",
-                        description: "We then assembled and prepared the ceramic fermenter that was created based on ancient ceramic fragments.",
+                        description: "Then, we assembled and prepared the ceramic fermenter that was created based on ancient ceramic fragments.",
                     },
                     {
                         title: "Step 3: Brewing Process",
                         image: "/pour.JPG",
-                        description: "We followed ancient brewing techniques combined with updated lab equipment to .",
+                        description: "After that, we followed ancient brewing techniques combined with updated lab equipment to begin the brewing process.",
                     },
                     {
                         title: "Step 4: Fermentation",
                         image: "/BEERSS.JPG",
-                        description: "The brewing process involved natural fermentation in open air, allowing the ingredients to ferment and mature.",
+                        description: "Next, we began fermenting in open air, allowing the ingredients to ferment and mature.",
                     },
                     {
                         title: "Step 5: Tasting & Reflection",
@@ -105,13 +105,13 @@ export default function BrewingPage() {
                 ].map((step, index) => (
                     <div key={index} className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg">
                         <h3 className="text-2xl font-bold text-orange-600">{step.title}</h3>
-                        <div className="mt-4 flex gap-4">
+                        <div className="mt-4 flex gap-2 items-center">
                             <img
                                 src={step.image}
                                 alt={step.title}
                                 className="w-50 h-60 rounded-lg object-cover"
                             />
-                            <p className="text-lg text-gray-300">{step.description}</p>
+                            <p className="text-xl text-gray-300">{step.description}</p>
                         </div>
                     </div>
                 ))}
@@ -125,13 +125,34 @@ export default function BrewingPage() {
                     Working with --- and --- (two ---), the brewing group members explored not only ancient processes but also modern scientific principles.
                     Traditionally, brewing starts with grains like barley and emmer (an early form of wheat) being malted. Malting initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
                     Using the pot created by --- , created based on ancient pottery remains, we were able to construct a filter system that allowed water at 150°F to percolate through the malt.
-                    This temperature was crucial to keep both alpha and beta amylases active and efficient at extracting sugars. 
-                    From there, we relied on an iodine test with which a sample either turns blue or brown. When it is blue, it indicates that the sample still contains starch and when it is brown we know there has been the desired starch breakdown. 
-                    As we worked, we had unexpected results. The sample we used for the iodine test was showing that the  with the emmer which led us to create a control group to ensure our original sample contained starch.
+                    This temperature (150) is crucial as it ensures that both alpha and beta amylases are active and efficient at extracting sugars.
+                    From there, we relied on an iodine test with which a sample either turns blue or brown. When it is blue, it indicates that the sample still contains starch and when it is brown we know there has been the desired starch breakdown.
+                    As we worked, we had unexpected results. The sample we used for the iodine test was showing that the starch had left the sample quicker than anticipated. As a result, the group created a control group
+                    with the emmer to ensure our original sample contained starch. After evaluating the control group, we were able to confirm that the original sample did contain starch
+                    which meant that the fermentation should still be possible despite our first starch test having alarming results.
+                    <br></br>
+                </p>
+            </div>
+            {/* NEw Section  */}
+            <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
+                <h2 className="text-3xl font-bold text-orange-600">Brewing of the Past Versus the Present</h2>
+                <p className="mt-2 text-lg leading-relaxed">
+                    As we worked on the brewing process, I could not stop making comparisons between the actions we were taking and the ones that those of the past would have.
+                    For example, we had access to a thermometer which allowed us to make sure that both the alpha and beta amylases would be present to break down the sugars. We also had access to years of research that show that 150
+                    degrees is the ideal temperature for this. In ancient Egypt and Mesopotamia, they not only did not know what the exact ideal temperature was but they also did not have a way to measure the temperature of their water.
+                    This implies they used a feel-based approach and that the brewers of the past must have developed the ability to recognize when the water was the perfect temperature for the breakdown of starches to occur. This also suggests
+                    that the task of brewing was likely passed down and taught through families or communities as someone would need to learn how to recognize the correct temperature or starch breakdown.
+                </p>
+            </div>
+            {/* NEw Section  */}
+            <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
+                <h2 className="text-3xl font-bold text-orange-600">The Results of the Brewing</h2>
+                <p className="mt-2 text-lg leading-relaxed">
 
-                    LINK TO TRACE RESIDUE 
-
-                    NEEDS EDITED AND EXPANDED UPON 
+                    ** add link to trace residue and cooking event **
+                    <br>
+                    </br>
+                        ** text will be edited more**
                 </p>
             </div>
         </div>

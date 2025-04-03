@@ -83,7 +83,7 @@ export default function CookingEventPage() {
                     <h2 className="text-3xl font-bold text-orange-600">Event Gallery</h2>
                     <p className="text-lg text-gray-300 mt-2">Upload or view images from the event.</p>
                     <div className="mt-4 flex space-x-4">
-                        <img src="/example1.jpg" alt="Example" className="w-40 h-40 rounded-lg object-cover" />
+                        <img src="/harper.jpg" alt="Example" className=" rounded-lg object-cover" />
                         <img src="/example2.jpg" alt="Example" className="w-40 h-40 rounded-lg object-cover" />
                     </div>
                 </div>
