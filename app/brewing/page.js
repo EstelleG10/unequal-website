@@ -68,9 +68,9 @@ export default function BrewingPage() {
 
             {/* Project Overview */}
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
-                <h2 className="text-3xl font-bold text-orange-600">Project Overview</h2>
+                <h2 className="text-3xl font-bold text-orange-600">The Task at Hand</h2>
                 <p className="mt-4 text-lg">
-                    The brewing group embarked on an ambitious journey to recreate ancient recipes from various civilizations. The goal was to revive forgotten techniques and explore the flavors that our ancestors experienced through their brewing practices.
+                    The brewing group embarked on an ambitious journey - recreating recipes of the past from ancient Egypt and Mesopotamia. The goal was to revive forgotten techniques and explore the flavors created through their ancient brewing practices.
                 </p>
             </div>
 
@@ -85,12 +85,12 @@ export default function BrewingPage() {
                     {
                         title: "Step 2: Preparing the Tools",
                         image: "/ceram.JPG",
-                        description: "We prepared traditional brewing tools such as ceramic fermenters and wooden spoons, mimicking ancient methods.",
+                        description: "We then assembled and prepared the ceramic fermenter that was created based on ancient ceramic fragments.",
                     },
                     {
                         title: "Step 3: Brewing Process",
                         image: "/pour.JPG",
-                        description: "We followed ancient brewing techniques such as using wild yeasts for fermentation and fermenting in natural vessels.",
+                        description: "We followed ancient brewing techniques combined with updated lab equipment to .",
                     },
                     {
                         title: "Step 4: Fermentation",
@@ -123,9 +123,15 @@ export default function BrewingPage() {
                 <p className="mt-4 text-lg">
                     While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it.
                     Working with --- and --- (two ---), the brewing group members explored not only ancient processes but also modern scientific principles.
-                    Traditionally, brewing starts with grains like barley and emmer (an early form of wheat) being malted. Malting initiates germination, which activates enzymes needed to convert starches to fermentable sugars.
-                    Using the pot created by --- and designed based on ancient pottery remains, we constructed a filter system that allowed water at 150°F to percolate through the malt.
-                    This temperature was crucial to keep both alpha and beta amylases active and efficient.
+                    Traditionally, brewing starts with grains like barley and emmer (an early form of wheat) being malted. Malting initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
+                    Using the pot created by --- , created based on ancient pottery remains, we were able to construct a filter system that allowed water at 150°F to percolate through the malt.
+                    This temperature was crucial to keep both alpha and beta amylases active and efficient at extracting sugars. 
+                    From there, we relied on an iodine test with which a sample either turns blue or brown. When it is blue, it indicates that the sample still contains starch and when it is brown we know there has been the desired starch breakdown. 
+                    As we worked, we had unexpected results. The sample we used for the iodine test was showing that the  with the emmer which led us to create a control group to ensure our original sample contained starch.
+
+                    LINK TO TRACE RESIDUE 
+
+                    NEEDS EDITED AND EXPANDED UPON 
                 </p>
             </div>
         </div>
