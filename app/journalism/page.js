@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link"
 
 export default function CookingEventPage() {
     const [expandedSection, setExpandedSection] = useState(null);
@@ -17,7 +18,10 @@ export default function CookingEventPage() {
             <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
                 <h2 className="text-3xl font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
                 <nav className="flex gap-6 relative text-white text-lg font-semibold">
-                    <a href="/" className="hover:text-[#E2A96D] transition-all">Home</a>
+                    <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
+
+
+                    <a href="/about" className="hover:text-[#E2A96D] transition-all">About</a>
 
                     {/* Groups Dropdown */}
                     <div className="relative">

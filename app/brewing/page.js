@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link"
+/* eslint-disable react/no-unescaped-entities */
 
 export default function BrewingPage() {
     const [showGroups, setShowGroups] = useState(false);
@@ -11,7 +13,9 @@ export default function BrewingPage() {
             <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
                 <h2 className="text-3xl font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
                 <nav className="flex gap-6 relative text-white text-lg font-semibold">
-                    <a href="/" className="hover:text-[#E2A96D] transition-all">Home</a>
+                    <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
+
+                    <a href="/about" className="hover:text-[#E2A96D] transition-all">About</a>
 
                     {/* Groups Dropdown */}
                     <div className="relative">
@@ -54,7 +58,7 @@ export default function BrewingPage() {
             <div className="text-center mt-6">
                 <h1 className="text-7xl font-extrabold drop-shadow-md">The Brewing Group</h1>
                 <p className="text-lg text-orange-600 mt-2">Recreating Ancient Brewing Techniques.</p>
-                <p className="text-lg text-white mt-2">Words by ----</p>
+                <p className="text-lg text-white mt-2">Words by Estelle Gerber</p>
             </div>
 
             {/* Main image */}
@@ -80,7 +84,7 @@ export default function BrewingPage() {
                     {
                         title: "Step 1: Gathering Ingredients",
                         image: "/barley.JPG",
-                        description: "First, we sourced ancient grains like barley and emmer as well as gathered the needed lab equipment such as iodine, thermometer, beakers, hot plates, and other tools.",
+                        description: "First, we sourced ancient grains like barley and emmer as well as gathered the needed lab equipment such as iodine, thermometers, beakers, hot plates, and other tools.",
                     },
                     {
                         title: "Step 2: Preparing the Tools",
@@ -122,37 +126,93 @@ export default function BrewingPage() {
                 <h2 className="text-3xl font-bold text-orange-600">The Science Behind Brewing</h2>
                 <p className="mt-4 text-lg">
                     While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it.
-                    Working with --- and --- (two ---), the brewing group members explored not only ancient processes but also modern scientific principles.
+                    Working with Vanessa Torros and Zane Johnson (two Yale postdocs in Molecular Biology and Biochemistry), the brewing group members explored not only ancient processes but also modern scientific principles.
                     Traditionally, brewing starts with grains like barley and emmer (an early form of wheat) being malted. Malting initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
-                    Using the pot created by --- , created based on ancient pottery remains, we were able to construct a filter system that allowed water at 150°F to percolate through the malt.
+                    Using the pot created by Maishe Dickman, created based on ancient pottery remains, we were able to construct a filter system that allowed water at 150°F to percolate through the malt.
                     This temperature (150) is crucial as it ensures that both alpha and beta amylases are active and efficient at extracting sugars.
-                    From there, we relied on an iodine test with which a sample either turns blue or brown. When it is blue, it indicates that the sample still contains starch and when it is brown we know there has been the desired starch breakdown.
-                    As we worked, we had unexpected results. The sample we used for the iodine test was showing that the starch had left the sample quicker than anticipated. As a result, the group created a control group
-                    with the emmer to ensure our original sample contained starch. After evaluating the control group, we were able to confirm that the original sample did contain starch
-                    which meant that the fermentation should still be possible despite our first starch test having alarming results.
-                    <br></br>
+                    From there, we relied on an iodine test with which a sample of our brew either turns blue or brown. When it is blue, it indicates that the sample still contains starch and when it is brown we know there has been the desired starch breakdown.
+                    It was expected that we would originally have our sample test for high levels of starch (very blue) and that overtime the tests would shift to brown indicating the starch was being broken down.
+                    However, as we worked, we had unexpected results. The sample we used for the iodine test was showing that the starch had been broken down far quicker than anticipated. As a result, the group quickly created a control group
+                    with the emmer to ensure our original sample contained starch and to ensure that our iodine was working. After evaluating the control group, we were able to confirm that the original sample did contain starch and that the iodine was functioning as expected
+                    meaning that the fermentation was still happening despite our first starch test having alarming results.
                 </p>
             </div>
-            {/* NEw Section  */}
+
+            {/* The Results of the Brewing */}
+            <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
+                <h2 className="text-3xl font-bold text-orange-600">The Results of the Brewing</h2>
+                <p className="mt-2 text-lg leading-relaxed">
+                    After going through the rigorous brewing process, it was time to enjoy the beer that was the result of a long and complex brewing process.
+                    At our cooking event (which you can read more about here),
+                    the brewing group provided their work for people to drink as they ate the
+                    food we prepared. Everyone I spoke to really enjoyed the beer and it was
+                    interesting to see people try the store bought beer and compare it relative to the brewing group’s creation.
+
+                    <br></br>
+                    <br></br>
+                    <br></br>
+
+                    ** add link to trace residue and cooking event ** <br />
+                    ** text will be edited more**
+                </p>
+            </div>
+
+            {/* Brewing of the Past Versus the Present */}
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">Brewing of the Past Versus the Present</h2>
                 <p className="mt-2 text-lg leading-relaxed">
-                    As we worked on the brewing process, I could not stop making comparisons between the actions we were taking and the ones that those of the past would have.
+                    Throughout the brewing process, I couldn't stop making comparisons between the actions we were taking and the ones that those of the past would have.
                     For example, we had access to a thermometer which allowed us to make sure that both the alpha and beta amylases would be present to break down the sugars. We also had access to years of research that show that 150
                     degrees is the ideal temperature for this. In ancient Egypt and Mesopotamia, they not only did not know what the exact ideal temperature was but they also did not have a way to measure the temperature of their water.
                     This implies they used a feel-based approach and that the brewers of the past must have developed the ability to recognize when the water was the perfect temperature for the breakdown of starches to occur. This also suggests
                     that the task of brewing was likely passed down and taught through families or communities as someone would need to learn how to recognize the correct temperature or starch breakdown.
                 </p>
             </div>
-            {/* NEw Section  */}
-            <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
-                <h2 className="text-3xl font-bold text-orange-600">The Results of the Brewing</h2>
-                <p className="mt-2 text-lg leading-relaxed">
 
-                    ** add link to trace residue and cooking event **
-                    <br>
-                    </br>
-                        ** text will be edited more**
+            {/* Interview Section */}
+            {/* Interview Section */}
+            <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
+                <h2 className="text-3xl font-extrabold text-orange-600">An interview with the Babylonian Brewing Project</h2>
+                <p className="mt-2 text-lg leading-relaxed">
+                    <span className="font-bold text-white">Conducted by Megan Suka</span>
+                    <br /><br />
+                    Vanessa Torros and Zane Johnson, Yale postdocs in Molecular Biology and Biochemistry respectively, sat quietly next to a complicated-looking beer keg amidst the spirited chaos of students preparing for the Babylonian Feast. From this impressive keg, Vanessa had poured a small amount of a pinkish-looking liquid into a modest solo cup. I noticed her dipping a pH strip into this mixture and, having piqued my curiosity, I decided to walk over and ask what they were up to.
+                    <br /><br />
+                    <span className="font-extrabold text-white">Megan:</span> Can you tell me a little bit about this project?
+                    <br />
+                    <span className="font-extrabold text-white">Vanessa:</span> Well, we call ourselves the “Babylonian Brewing Project,” but that’s mostly just for fun. Basically, we’re recreating beers based on our best approximation of ancient Mesopotamian recipes.
+                    <br /><br />
+                    <span className="font-extrabold text-white">Megan:</span> And what are you learning from this pH test?
+                    <br />
+                    <span className="font-extrabold text-white">Zane:</span> The pH Test measures the output of the metabolic activity of the microorganisms that are responsible for the fermentation process. It’s how we monitor the progression of the fermentation process.
+                    <br />
+                    <span className="font-extrabold text-white">Vanessa:</span> The lower the pH, the more acidic the flavor becomes. Yeast prefer an acidic environment; a higher-sugar environment like the one we’ve provided enables the yeast to convert more sugars into alcohol. So this should only contain yeast.
+                    <br /><br />
+                    <span className="font-extrabold text-white">Megan:</span> So the sugars increase the acidity, and basically have the dual effect of getting you drunker while inoculating the mixture against contamination?
+                    <br />
+                    <span className="font-extrabold text-white">Vanessa:</span> That’s right.
+                    <br /><br />
+                    <span className="font-extrabold text-white">Megan:</span> How elegant.
+                    <br />
+                    <span className="font-extrabold text-white">Vanessa:</span> The beer we’ve made has a pH below 4.5, so it’s on the sour side. Anything than 4.5 tends to be more bitter.
+                    <br /><br />
+                    <span className="font-extrabold text-white">Megan:</span> What’s significant about the yeast you’ve chosen to use for this particular beer?
+                    <br />
+                    <span className="font-extrabold text-white">Zane:</span> If the idea is to recreate ancient Mesopotamian beer as closely as possible, one of the key determinants will be the type of yeast they used. We know that the particular date skins endemic to the Euphrates Valley are particularly well-suited to the fermentation process, so we isolated that yeast and used it to inoculate our beer. This strain of yeast is called <em>Meyerozyma Caribbica</em>.
+                    <br /><br />
+                    <span className="font-extrabold text-white">Megan:</span> So this is our best approximation of a Mesopotamian beer recipe based on the kinds of microorganisms we can find there nowadays?
+                    <br />
+                    <span className="font-extrabold text-white">Zane:</span> Right.
+                    <br />
+                    <span className="font-extrabold text-white">Vanessa:</span> This particular yeast is so super delicious. Would you like to try it?
+                    <br /><br />
+                    Vanessa handed me a glass of a light, pink-tinged brew. It wasn’t overly-sweet, but the dryness was balanced with a tremendously fruity flavor reminiscent of dates. She reminded me that there were no actual date fruits in the recipe, but it was a very welcome coincidence.
+                    <br /><br />
+                    <span className="font-extrabold text-white">Megan:</span> That’s got to be one of the best beers I’ve ever tasted.
+                    <br />
+                    <span className="font-extrabold text-white">Vanessa:</span> Thank you! The biggest difference between this beer and contemporary beers is that this one contains no hops. Mesopotamian beer contained barley and emmer; since emmer is so closely related to wheat, we used wheat and barley in this recipe. It’s a lot different from what we’re used to drinking nowadays.
+                    <br /><br />
+                    Vanessa and Zane’s brewing efforts are part of a larger project at Yale led by Dr. Andrew Koh, who is working to create novel protocols for trace residue analysis. You can read more about this project here [HYPERLINK TO TRACE RESIDUE PAGE]
                 </p>
             </div>
         </div>

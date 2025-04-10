@@ -1,6 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link"
+/* eslint-disable react/no-unescaped-entities */
 
 export default function CookingEventPage() {
     const [expandedSection, setExpandedSection] = useState(null);
@@ -17,8 +19,9 @@ export default function CookingEventPage() {
             <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
                 <h2 className="text-3xl font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
                 <nav className="flex gap-6 relative text-white text-lg font-semibold">
-                    <a href="/" className="hover:text-[#E2A96D] transition-all">Home</a>
+                    <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
 
+                    <a href="/about" className="hover:text-[#E2A96D] transition-all">About</a>
                     {/* Groups Dropdown */}
                     <div className="relative">
                         <button
@@ -138,8 +141,8 @@ export default function CookingEventPage() {
 
             {/* Video Section */}
             <div className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
-                <h2 className="text-3xl font-bold text-orange-600">Event Video</h2>
-                <p className="text-lg text-gray-300 mt-2">Watch highlights from the event.</p>
+                <h2 className="text-3xl font-bold text-orange-600">Event Gallery</h2>
+                <p className="text-lg text-gray-300 mt-2">Watch highlights from the event!</p>
 
                 <div className="mt-4 flex justify-center">
                     <div className="w-full max-w-3xl aspect-video rounded-lg overflow-hidden shadow-lg">

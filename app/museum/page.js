@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link"
 
 export default function CookingEventPage() {
     const [expandedSection, setExpandedSection] = useState(null);
@@ -17,8 +18,9 @@ export default function CookingEventPage() {
             <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
                 <h2 className="text-3xl font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
                 <nav className="flex gap-6 relative text-white text-lg font-semibold">
-                    <a href="/" className="hover:text-[#E2A96D] transition-all">Home</a>
+                    <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
 
+                    <a href="/about" className="hover:text-[#E2A96D] transition-all">About</a>
                     {/* Groups Dropdown */}
                     <div className="relative">
                         <button
@@ -59,7 +61,7 @@ export default function CookingEventPage() {
                 {/* Title & Event Date */}
                 <div className="text-center">
                     <h1 className="text-6xl font-extrabold drop-shadow-md">The Museum Group</h1>
-                    <p className="text-lg text-orange-600 mt-2">Exploring curation of ancient objects at the Peabody Museum.</p>
+                    <p className="text-lg text-orange-600 mt-2">Exploring curation of ancient objects at the Yale Peabody Museum.</p>
                 </div>
 
                 {/* Event Poster */}
@@ -72,16 +74,16 @@ export default function CookingEventPage() {
                     <h2 className="text-3xl font-bold text-orange-600">The Process Described </h2>
                     <p className="mt-2 text-lg leading-relaxed">
                         <br /><br />
-                        On Tuesday, February 18th, people gathered to enjoy a dinner of Babylonian cuisine ... CONTINUED
+                        The group...
                     </p>
                 </div>
 
-            
-                
+
+
                 {/* Event Gallery */}
                 <div className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
-                    <h2 className="text-3xl font-bold text-orange-600">Event Gallery</h2>
-                    <p className="text-lg text-gray-300 mt-2">Upload or view images from the event.</p>
+                    <h2 className="text-3xl font-bold text-orange-600">The Planning Process</h2>
+                    <p className="text-lg text-gray-300 mt-2">Students worked to draw and map our their vision of the exhibit.</p>
                     <div className="mt-4 flex space-x-4">
                         <img src="/harper.jpg" alt="Example" className=" rounded-lg object-cover" />
                         <img src="/example2.jpg" alt="Example" className="w-40 h-40 rounded-lg object-cover" />
