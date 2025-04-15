@@ -64,29 +64,75 @@ export default function CookingEventPage() {
                     <p className="text-lg text-orange-600 mt-2">Exploring curation of ancient objects at the Yale Peabody Museum.</p>
                 </div>
 
-                {/* Event Poster */}
                 <div className="mt-8 flex justify-center">
-                    <img src="/museum_graphic.png" alt="Event Poster" className="w-96 h-100 max-w-3xl rounded-lg shadow-lg" />
-                </div>
-
-                {/* Event Overview */}
-                <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
-                    <h2 className="text-3xl font-bold text-orange-600">The Process Described </h2>
-                    <p className="mt-2 text-lg leading-relaxed">
-                        <br /><br />
-                        The group...
-                    </p>
+                    <img
+                        src="/museum_graphic.png"
+                        alt="Event Poster"
+                        className="w-64 h-auto max-w-xs rounded-lg shadow-lg"
+                    />
                 </div>
 
 
+                <div className="mt-4 space-y-6 text-lg leading-relaxed text-gray-300">
+                    <div>
+                        <h3 className="text-2xl font-semibold text-orange-600">Getting Started</h3>
+                        <p>
+                            The students of the museum group had the opportunity to curate a museum exhibit at the Yale Peabody Museum.
+                            In order to do so, the students first had to learn about curation and what objects would be possible based on the space provided.
+                            Through working with the Peabody curators, they learned the size restraints of the case as well as the limitations caused by security.
+                            The space they were given is near the lobby and gift shop which unfortunately meant the case did not have the security that some objects would require.
+                            After learning more about the process, it was time for the group to pick their theme.
+                            They discussed many ideas and ultimately decided to do two separate but connected themes for the cases.
+                            In one case they would focus on the preparation of the feast and in the other, the indulgence of the feast.
+                            This theme truly captured the essence of the course Unequal.
+                            Throughout the semester students have read ancient recipes, recreated meals, and learned about the history behind the food/drink and how it was enjoyed.
+                            After picking this theme, it was time to go through objects and plan out the case.
+                        </p>
+                    </div>
 
-                {/* Event Gallery */}
+                    {/* Event image */}
+                    <div className="mt-8 flex justify-center">
+                        <img src="/concept.jpg" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
+                    </div>
+
+                    <div>
+                        <h3 className="text-2xl font-semibold text-orange-600">Object Selection</h3>
+                        <p>
+                            Through the process of selecting objects, the museum group quickly learned both how rewarding the process can be and how difficult it can be.
+                            Not only did all group members need to agree on the vision for the case but each object also had to be available and possible to be showcased in the provided case.
+                            For example, if it was being used for research, displayed elsewhere, required high security, or was not prepared to be displayed, then the group was unable to use the object.
+                            So, the members came up with lists of objects for each case, knowing that they might need to shift their plans depending on what was possible.
+                            While this first posed as a challenge, I found that it led to deeper conversation over which objects to select.
+                            It also meant that they drafted a longer list of objects that they were interested in, leading to more options when it was time to design case layout.
+                        </p>
+                    </div>
+
+                    {/* Event image */}
+                    <div className="mt-8 flex justify-center">
+                        <img src="/breakdown.jpg" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
+                    </div>
+
+                    <div>
+                        <h3 className="text-2xl font-semibold text-orange-600">Case Layout</h3>
+                        <p>
+                            As the group worked to design the layout of the cases, I first hand witnessed the range of knowledge and skills possessed by various group mates
+                            as a result of the wide range of majors represented throughout the course. This is one of my favorite parts of Unequal; because many students come from different majors,
+                            they all bring different skill sets to each group which can help in unexpected ways.
+                            In regard to case layout, it meant that people were skilled with CAD (Computer Aided Design), Photoshop, and drawing.
+                            With all of these skills, the case layouts below were created.
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+                {/* Images of Case Design */}
                 <div className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
-                    <h2 className="text-3xl font-bold text-orange-600">The Planning Process</h2>
-                    <p className="text-lg text-gray-300 mt-2">Students worked to draw and map our their vision of the exhibit.</p>
                     <div className="mt-4 flex space-x-4">
                         <img src="/harper.jpg" alt="Example" className=" rounded-lg object-cover" />
-                        <img src="/example2.jpg" alt="Example" className="w-40 h-40 rounded-lg object-cover" />
+                        <img src="/example2.jpg" alt="layout" className="w-40 h-40 rounded-lg object-cover" />
+                        <img src="/example2.jpg" alt="layout" className="w-40 h-40 rounded-lg object-cover" />
                     </div>
                 </div>
             </div>
