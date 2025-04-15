@@ -48,7 +48,7 @@ export default function CookingEventPage() {
                         </button>
                         {showEvents && (
                             <div className="absolute top-8 left-0 bg-black text-white rounded shadow-lg py-2 z-50 w-40">
-                                <a href="/journalism" className="block px-4 py-2 hover:bg-[#333]">Brewing Event</a>
+                                <a href="/brewing_event" className="block px-4 py-2 hover:bg-[#333]">Brewing Event</a>
                                 <a href="/cooking_event" className="block px-4 py-2 hover:bg-[#333]">Cooking Event</a>
                             </div>
                         )}
@@ -64,13 +64,13 @@ export default function CookingEventPage() {
                     <p className="text-lg text-orange-600 mt-2">Exploring curation of ancient objects at the Yale Peabody Museum.</p>
                 </div>
 
-                <div className="mt-8 flex justify-center">
+                {/* <div className="mt-8 flex justify-center">
                     <img
                         src="/museum_graphic.png"
                         alt="Event Poster"
                         className="w-64 h-auto max-w-xs rounded-lg shadow-lg"
                     />
-                </div>
+                </div> */}
 
 
                 <div className="mt-4 space-y-6 text-lg leading-relaxed text-gray-300">
@@ -134,6 +134,15 @@ export default function CookingEventPage() {
                         <img src="/example2.jpg" alt="layout" className="w-40 h-40 rounded-lg object-cover" />
                         <img src="/example2.jpg" alt="layout" className="w-40 h-40 rounded-lg object-cover" />
                     </div>
+                </div>
+
+
+              <div className="mt-8 flex justify-center">
+                    <img
+                        src="/museum_graphic.png"
+                        alt="Event Poster"
+                        className="w-64 h-auto max-w-xs rounded-lg shadow-lg"
+                    />
                 </div>
             </div>
         </div>

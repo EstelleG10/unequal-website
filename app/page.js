@@ -48,7 +48,7 @@ export default function HomePage() {
             </button>
             {showEvents && (
               <div className="absolute top-8 left-0 bg-black text-white rounded shadow-lg py-2 z-50 w-40">
-                <a href="/journalism" className="block px-4 py-2 hover:bg-[#333]">Brewing Event</a>
+                <a href="/brewing_event" className="block px-4 py-2 hover:bg-[#333]">Brewing Event</a>
                 <a href="/cooking_event" className="block px-4 py-2 hover:bg-[#333]">Cooking Event</a>
               </div>
             )}
@@ -78,7 +78,7 @@ export default function HomePage() {
           <a href="/museum" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Museum Exhibit</a>
           <a href="/gallery" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Image Gallery</a>
           <a href="/trace-residue" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Trace Residue</a>
-          <a href="/journalism" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Brewing Event</a>
+          <a href="/brewing_event" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Brewing Event</a>
           <a href="/cooking_event" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Cooking Event</a>
         </div>
       </div>

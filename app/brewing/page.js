@@ -44,7 +44,7 @@ export default function BrewingPage() {
                         </button>
                         {showEvents && (
                             <div className="absolute top-8 left-0 bg-black text-white rounded shadow-lg py-2 z-50 w-40">
-                                <a href="/journalism" className="block px-4 py-2 hover:bg-[#333]">Brewing Event</a>
+                                <a href="/brewing_event" className="block px-4 py-2 hover:bg-[#333]">Brewing Event</a>
                                 <a href="/cooking_event" className="block px-4 py-2 hover:bg-[#333]">Cooking Event</a>
                             </div>
                         )}
