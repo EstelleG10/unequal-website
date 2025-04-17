@@ -59,10 +59,10 @@ export default function CookingEventPage() {
                     <a href="/gallery" className="hover:text-[#E2A96D] transition-all">Gallery</a>
                 </nav>
             </header>
-              
+
             {/* Title & Event Date */}
             <div className="text-center">
-                <h1 className="text-7xl font-extrabold drop-shadow-md">Brewing Talk</h1>
+                <h1 className="text-7xl font-extrabold drop-shadow-md">Trace Residue</h1>
                 <h2 className="text-3xl font-extrabold drop-shadow-md">--------</h2>
                 <p className="text-lg text-orange-600 mt-2">----.</p>
                 <p className="text-md text-grey-300 font-semibold mt-1">---</p>
@@ -71,7 +71,7 @@ export default function CookingEventPage() {
 
             {/* Event Picture  */}
             <div className="mt-8 flex justify-center">
-                <img src="/beertalk.jpeg" alt="Event Poster" className="" />
+                <img src="/beer.jpeg" alt="picture" className="" />
             </div>
         </div>
 

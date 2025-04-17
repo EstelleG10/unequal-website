@@ -34,7 +34,7 @@ export default function CookingEventPage() {
                             <div className="absolute top-8 left-0 bg-black text-white rounded shadow-lg py-2 z-50 w-40">
                                 <a href="/museum" className="block px-4 py-2 hover:bg-[#333]">Museum</a>
                                 <a href="/brewing" className="block px-4 py-2 hover:bg-[#333]">Brewing</a>
-                                <a href="/trace-residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</a>
+                                <a href="/trace_residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</a>
                             </div>
                         )}
                     </div>
@@ -58,7 +58,7 @@ export default function CookingEventPage() {
                     <a href="/gallery" className="hover:text-[#E2A96D] transition-all">Gallery</a>
                 </nav>
             </header>
-              
+
             {/* Title & Event Date */}
             <div className="text-center">
                 <h1 className="text-7xl font-extrabold drop-shadow-md">Feasting Like the Ancients:</h1>
@@ -86,10 +86,26 @@ export default function CookingEventPage() {
                     While the event itself was a spectacle of scholarship and sensory experience, my role as a documentarian shaped my perspective in unexpected ways. Rather than simply experiencing the feast, I found myself behind the camera, capturing the process as it unfolded—from candid interviews to the quiet intensity of food preparation. This article offers a glimpse behind the scenes, where collaboration, problem-solving, and personal reflections brought the past to life.
                 </p>
             </div>
-            {/* Event image */}
-            <div className="mt-8 flex justify-center">
-                <img src="/schoolsquad.png" alt="Event Poster" className="w-97 h-95 max-w-xl rounded-lg shadow-lg" />
-            </div>
+
+
+
+            {/* Video Section */}
+            <section className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
+                <h2 className="text-lg text-gray-300 mb-4">Ingredients Explanation</h2>
+
+                <div className="flex justify-center">
+                    <div className="w-full max-w-3xl aspect-video rounded-lg overflow-hidden shadow-lg">
+                        <iframe
+                            className="w-full h-full"
+                            src="https://www.youtube.com/embed/Fx8OW2xAI-0"
+                            title="Chef Interview Video"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
 
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">Framing the Moment</h2>

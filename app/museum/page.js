@@ -33,7 +33,7 @@ export default function CookingEventPage() {
                             <div className="absolute top-8 left-0 bg-black text-white rounded shadow-lg py-2 z-50 w-40">
                                 <a href="/museum" className="block px-4 py-2 hover:bg-[#333]">Museum</a>
                                 <a href="/brewing" className="block px-4 py-2 hover:bg-[#333]">Brewing</a>
-                                <a href="/trace-residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</a>
+                                <a href="/trace_residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</a>
                             </div>
                         )}
                     </div>
@@ -128,16 +128,29 @@ export default function CookingEventPage() {
 
 
                 {/* Images of Case Design */}
-                <div className="mt-10 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
-                    <div className="mt-4 flex space-x-4">
-                        <img src="/harper.jpg" alt="Example" className=" rounded-lg object-cover" />
-                        <img src="/example2.jpg" alt="layout" className="w-40 h-40 rounded-lg object-cover" />
-                        <img src="/example2.jpg" alt="layout" className="w-40 h-40 rounded-lg object-cover" />
+                <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
+                    <div className="flex flex-wrap justify-center gap-2">
+                        <img
+                            src="/harper.jpg"
+                            alt="Example"
+                            className="w-74 h-60 rounded-lg object-cover"
+                        />
+                        <img
+                            src="/CAD.jpeg"
+                            alt="CAD layout"
+                            className="w-74 h-60 rounded-lg object-cover"
+                        />
+                        <img
+                            src="/drawing.jpg"
+                            alt="Drawing layout"
+                            className="w-74 h-60 rounded-lg object-cover"
+                        />
                     </div>
                 </div>
 
 
-              <div className="mt-8 flex justify-center">
+
+                <div className="mt-8 flex justify-center">
                     <img
                         src="/museum_graphic.png"
                         alt="Event Poster"

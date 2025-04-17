@@ -29,7 +29,7 @@ export default function BrewingPage() {
                             <div className="absolute top-8 left-0 bg-black text-white rounded shadow-lg py-2 z-50 w-40">
                                 <a href="/museum" className="block px-4 py-2 hover:bg-[#333]">Museum</a>
                                 <a href="/brewing" className="block px-4 py-2 hover:bg-[#333]">Brewing</a>
-                                <a href="/trace-residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</a>
+                                <a href="/trace_residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</a>
                             </div>
                         )}
                     </div>
@@ -125,16 +125,14 @@ export default function BrewingPage() {
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Science Behind Brewing</h2>
                 <p className="mt-4 text-lg">
-                    While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it.
-                    Working with Vanessa Torros and Zane Johnson (two Yale postdocs in Molecular Biology and Biochemistry), the brewing group members explored not only ancient processes but also modern scientific principles.
-                    Traditionally, brewing starts with grains like barley and emmer (an early form of wheat) being malted. Malting initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
-                    Using the pot created by Maishe Dickman, created based on ancient pottery remains, we were able to construct a filter system that allowed water to percolate through the malt.
-                    This water was kept at 150 degrees fahrenheit to ensure that both alpha and beta amylase were active and able to be efficient at extracting sugars.
-                    From there, we used an iodine test to keep an eye on our starch levels. When iodine is added to a sample, the sample will either turn blue or brown.
+                    While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it. Working with Vanessa Torros and Zane Johnson (two Yale postdocs in Molecular Biology and Biochemistry), the brewing group members explored not only ancient processes but also modern scientific principles. Traditionally, brewing starts with malting grains like barley and emmer (an early form of wheat that would have been used to beer ancient beer). Malting, which involves XYZ,  initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
+                    Using the pot created by local ceramicist and longtime Peabody staff member Maishe Dickman, who built the group several vessels based on ancient pottery remains published in the book TITLE, we were able to construct a filter system that allowed water to percolate through the malt.
+                    This water was kept at 150 degrees fahrenheit to ensure that both alpha and beta amylase were active and able to efficiently extract sugars.
+                    From there, the group used an iodine test to keep an eye on the wort’s starch levels. When iodine is added to a liquid sample like our wort, the sample will either turn blue or brown.
                     Blue indicates that starch is present and brown indicates that all of the starch has been broken down. We expected that our first test would result in blue, meaning that
-                    starch was still present in our sample. This was expected as we had only put the water through the filter a few times. However, after our first iodine test, we had unexpected results. The sample showed that the starch had been broken down far quicker than anticipated. To combat this, the group quickly created a control group
+                    starch was still present in our sample. This was expected as we had only put the water through the filter a few times. However, after our first iodine test, we had unexpected results. The sample showed that the starch had broken down far quicker than anticipated. To confirm whether this result was accurate, the group quickly created a control group
                     with the wheat and water to ensure our original sample contained starch and to ensure that our iodine was working. After evaluating the control group, we were able to confirm that the original sample did contain starch and that the iodine was functioning as expected. This meant
-                    that the fermentation was still happening despite our first starch test having alarming results. We hypothesized that the color was altered because of the natural color of the wheat in the sample. While this moment was stressful and unexpected, it provided all members of the brewing team with a glimpse of what it is like to brew beer or work in a lab. Things will not always go as expected meaning it is important to be quick on your feet and creative with solutions.
+                    that the fermentation was still happening despite our first starch test having alarming results. We hypothesized that the color was altered because of the natural color of the wheat in the sample. While this moment was stressful and unexpected, it provided all members of the brewing team with a glimpse of what it is like to brew beer or work in a lab. Things will not always go as expected, so it is important to be quick on your feet and creative with solutions.
 
                 </p>
             </div>
@@ -144,10 +142,11 @@ export default function BrewingPage() {
                 <h2 className="text-3xl font-bold text-orange-600">The Results of the Brewing</h2>
                 <p className="mt-2 text-lg leading-relaxed">
                     After going through the rigorous brewing process, it was time to enjoy the beer that was the result of a long and complex brewing process.
-                    At our cooking event (which you can read more about here),
+                    At the Unequal class cooking event (which you can read more about here),
                     the brewing group provided their work for people to drink as they ate the
                     food we prepared. Everyone I spoke to really enjoyed the beer and it was
                     interesting to see people try the store bought beer and compare it to the brewing group’s creation.
+
 
                     <br></br>
                     <br></br>
@@ -164,9 +163,9 @@ export default function BrewingPage() {
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">Brewing of the Past Versus the Present</h2>
                 <p className="mt-2 text-lg leading-relaxed">
-                    Throughout the brewing process, I couldn't stop making comparisons between the actions we were taking and the ones that those of the past would have.
+                    Throughout the brewing process, I couldn't stop making comparisons between the actions we were taking and the decisions that ancient brewers would have made.
                     For example, we had access to a thermometer which allowed us to make sure that both the alpha and beta amylases would be present to break down the sugars. We also had access to years of research that show that 150
-                    degrees is the ideal temperature for this. In ancient Egypt and Mesopotamia, they not only did not know what the exact ideal temperature was but they also did not have a way to measure the temperature of their water.
+                    degrees is the ideal temperature for this. In ancient Egypt and Mesopotamia, they not only did not know what the exact ideal temperature was, but they also did not have a way to exactly measure the temperature of their water.
                     This implies they used a feel-based approach and that the brewers of the past must have developed the ability to recognize when the water was the perfect temperature for the breakdown of starches to occur. This also suggests
                     that the task of brewing was likely passed down and taught through families or communities as someone would need to learn how to recognize the correct temperature or starch breakdown. While this is obviously different from the process that the brewing group went through, there were also many similarities. There was still the community aspect as the students had a chance to learn from people who have been brewing for many years. Additionally, the process was still aided by feel-based science. Whether it was the aroma exuded by the yeast, or the color the water became, the postdocs had immeasurable ways to check that the process was going as intended. So, in many ways our process is still similar to that of ancient brewers.
 
