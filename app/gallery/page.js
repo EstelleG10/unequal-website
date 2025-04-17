@@ -23,7 +23,15 @@ const images = [
   { src: "/jar.jpg", alt: "Portrait 6", orientation: "portrait" },
   { src: "/poured.jpg", alt: "L 6", orientation: "landscape" },
   { src: "/gtalking.jpg", alt: "Landscape 6", orientation: "portrait" },
-  { src: "/everyone.jpg", alt: "Portrait 6", orientation: "landscape" }
+  { src: "/everyone.jpg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/TR1.jpeg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/peabody.jpeg", alt: "L 6", orientation: "landscape" },
+  { src: "/moving.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/lab.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/TR1.jpeg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/peabody.jpeg", alt: "L 6", orientation: "landscape" },
+  { src: "/moving.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/lab.jpeg", alt: "Portrait 6", orientation: "landscape" }
 ];
 
 const MasonryGallery = () => {
@@ -50,8 +58,9 @@ const MasonryGallery = () => {
             {showGroups && (
               <div className="absolute top-8 left-0 bg-black text-white rounded shadow-lg py-2 z-50 w-40">
                 <Link href="/museum" className="block px-4 py-2 hover:bg-[#333]">Museum</Link>
-                <Link href="/brewing_event" className="block px-4 py-2 hover:bg-[#333]">Brewing</Link>
+                <Link href="/brewing" className="block px-4 py-2 hover:bg-[#333]">Brewing</Link>
                 <Link href="/trace_residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</Link>
+                <Link href="/journalism" className="block px-4 py-2 hover:bg-[#333]">Journalism</Link>
               </div>
             )}
           </div>

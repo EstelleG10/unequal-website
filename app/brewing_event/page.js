@@ -34,8 +34,9 @@ export default function CookingEventPage() {
                         {showGroups && (
                             <div className="absolute top-8 left-0 bg-black text-white rounded shadow-lg py-2 z-50 w-40">
                                 <a href="/museum" className="block px-4 py-2 hover:bg-[#333]">Museum</a>
-                                <a href="/brewing_event" className="block px-4 py-2 hover:bg-[#333]">Brewing</a>
+                                <a href="/brewing" className="block px-4 py-2 hover:bg-[#333]">Brewing</a>
                                 <a href="/trace_residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</a>
+                                <a href="/journalism" className="block px-4 py-2 hover:bg-[#333]">Journalism</a>
                             </div>
                         )}
                     </div>

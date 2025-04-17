@@ -34,6 +34,7 @@ export default function HomePage() {
                 <a href="/museum" className="block px-4 py-2 hover:bg-[#333]">Museum</a>
                 <a href="/brewing" className="block px-4 py-2 hover:bg-[#333]">Brewing</a>
                 <a href="/trace_residue" className="block px-4 py-2 hover:bg-[#333]">Trace Residue</a>
+                <a href="/journalism" className="block px-4 py-2 hover:bg-[#333]">Journalism</a>
               </div>
             )}
           </div>
