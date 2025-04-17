@@ -28,10 +28,42 @@ const images = [
   { src: "/peabody.jpeg", alt: "L 6", orientation: "landscape" },
   { src: "/moving.jpeg", alt: "Landscape 6", orientation: "portrait" },
   { src: "/lab.jpeg", alt: "Portrait 6", orientation: "landscape" },
-  { src: "/TR1.jpeg", alt: "Portrait 6", orientation: "portrait" },
-  { src: "/peabody.jpeg", alt: "L 6", orientation: "landscape" },
-  { src: "/moving.jpeg", alt: "Landscape 6", orientation: "portrait" },
-  { src: "/lab.jpeg", alt: "Portrait 6", orientation: "landscape" }
+  { src: "/udpeabody.jpeg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/beertalk1.jpeg", alt: "L 6", orientation: "landscape" },
+  { src: "/pottery.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/beertalk2.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/udsoup.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/hlab.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/play.jpeg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/thespread.jpeg", alt: "L 6", orientation: "landscape" },
+  { src: "/udpouring.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/smile.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/grains.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/ppt.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/pour1.jpeg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/souppour.jpeg", alt: "L 6", orientation: "landscape" },
+  { src: "/indalab.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/lrpour.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/lamb.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/lrpottery.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/udoven.jpeg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/classpeabody.jpeg", alt: "L 6", orientation: "landscape" },
+  { src: "/studio.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/kitchen.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/udmeasure.jpeg", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/morecheese.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/udlab2.jpeg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/breadwip.jpeg", alt: "L 6", orientation: "landscape" },
+  { src: "/grubwip.jpeg ", alt: "Landscape 6", orientation: "portrait" },
+  { src: "/cheese.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/classpeabody2.jpeg", alt: "Portrait 6", orientation: "portrait" },
+
+
+
+
+
+
+
 ];
 
 const MasonryGallery = () => {
