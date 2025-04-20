@@ -61,8 +61,8 @@ export default function CookingEventPage() {
             <div className="min-h-screen bg-black text-white px-8 py-16">
                 {/* Title & Event Date */}
                 <div className="text-center">
-                    <h1 className="text-6xl font-extrabold drop-shadow-md">The Museum Group</h1>
-                    <p className="text-lg text-orange-600 mt-2">Exploring curation of ancient objects at the Yale Peabody Museum.</p>
+                    <h1 className="text-7xl font-extrabold drop-shadow-md">The Museum Group</h1>
+                    <p className="text-2xl text-orange-600 mt-2">Exploring curation of ancient objects at the Yale Peabody Museum.</p>
                 </div>
 
                 {/* <div className="mt-8 flex justify-center">
@@ -77,7 +77,7 @@ export default function CookingEventPage() {
                 <div className="mt-4 space-y-6 text-lg leading-relaxed text-gray-300">
                     <div>
                         <h3 className="text-2xl font-semibold text-orange-600">Getting Started</h3>
-                        <p>
+                        <p className="max-w-[90rem] mx-auto" >
                             The students of the museum group had the opportunity to curate a museum exhibit at the Yale Peabody Museum.
                             In order to do so, the students first had to learn about curation and what objects would be possible based on the space provided.
                             Through working with the Peabody curators, they learned the size restraints of the case as well as the limitations caused by security.
@@ -98,7 +98,7 @@ export default function CookingEventPage() {
 
                     <div>
                         <h3 className="text-2xl font-semibold text-orange-600">Object Selection</h3>
-                        <p>
+                        <p className="max-w-[90rem] mx-auto" >
                             Through the process of selecting objects, the museum group quickly learned both how rewarding the process can be and how difficult it can be.
                             Not only did all group members need to agree on the vision for the case but each object also had to be available and possible to be showcased in the provided case.
                             For example, if it was being used for research, displayed elsewhere, required high security, or was not prepared to be displayed, then the group was unable to use the object.
@@ -115,7 +115,7 @@ export default function CookingEventPage() {
 
                     <div>
                         <h3 className="text-2xl font-semibold text-orange-600">Case Layout</h3>
-                        <p>
+                        <p className="max-w-[90rem] mx-auto" >
                             As the group worked to design the layout of the cases, I first hand witnessed the range of knowledge and skills possessed by various group mates
                             as a result of the wide range of majors represented throughout the course. This is one of my favorite parts of Unequal; because many students come from different majors,
                             they all bring different skill sets to each group which can help in unexpected ways.

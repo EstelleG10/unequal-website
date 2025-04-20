@@ -57,13 +57,7 @@ const images = [
   { src: "/grubwip.jpeg ", alt: "Landscape 6", orientation: "portrait" },
   { src: "/cheese.jpeg", alt: "Portrait 6", orientation: "landscape" },
   { src: "/classpeabody2.jpeg", alt: "Portrait 6", orientation: "portrait" },
-
-
-
-
-
-
-
+  { src: "/beertalk2.jpeg", alt: "Portrait 6", orientation: "landscape" },
 ];
 
 const MasonryGallery = () => {

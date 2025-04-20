@@ -38,6 +38,7 @@ export default function UnequalInterviewPage() {
                                 <a href="/trace-residue" className="block px-4 py-2 hover:bg-[#333]">
                                     Trace Residue
                                 </a>
+                                <a href="/journalism" className="block px-4 py-2 hover:bg-[#333]">Journalism</a>
                             </div>
                         )}
                     </div>
@@ -78,7 +79,7 @@ export default function UnequalInterviewPage() {
                 </header>
 
                 <p>
-                   WORDS
+                    WORDS
                 </p>
 
                 {/* Interview Title */}

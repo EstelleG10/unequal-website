@@ -57,7 +57,7 @@ export default function BrewingPage() {
 
             {/* Title & Group Overview */}
             <div className="text-center mt-6">
-                <h1 className="text-7xl font-extrabold drop-shadow-md">The Brewing Group</h1>
+                <h1 className="text-8xl font-extrabold drop-shadow-md">The Brewing Group</h1>
                 <p className="text-lg text-orange-600 mt-2">Recreating Ancient Brewing Techniques.</p>
                 <p className="text-lg text-white mt-2">Words by Estelle Gerber</p>
             </div>
@@ -74,58 +74,69 @@ export default function BrewingPage() {
             {/* Project Overview */}
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Task at Hand</h2>
-                <p className="mt-6 text-xl">
+                <p className="mt-6 max-w-[90rem] mx-auto text-xl">
                     The brewing group embarked on an ambitious journey - recreating recipes of the past from ancient Egypt and Mesopotamia. The goal was to revive forgotten techniques and explore the flavors created through their ancient brewing practices. Below you can see the steps taken and a more in depth look into the process.
                 </p>
             </div>
 
             {/* Brewing Steps */}
-            <div className="mt-10 space-y-6">
+            <div className="mt-16 max-w-3xl mx-auto px-4 space-y-12">
                 {[
                     {
                         title: "Step 1: Gathering Ingredients",
                         image: "/barley.JPG",
-                        description: "First, we sourced ancient grains like barley and wheat (our modern replacement for emmer) as well as gathered the needed lab equipment such as iodine, thermometers, beakers, hot plates, and other tools.",
+                        description:
+                            "First, we sourced ancient grains like barley and wheat (our modern replacement for emmer) as well as gathered the needed lab equipment such as iodine, thermometers, beakers, hot plates, and other tools.",
                     },
                     {
                         title: "Step 2: Preparing the Tools",
                         image: "/ceram.JPG",
-                        description: "Then, we assembled and prepared the ceramic fermenter that was created based on ancient ceramic fragments.",
+                        description:
+                            "Then, we assembled and prepared the ceramic fermenter that was created based on ancient ceramic fragments.",
                     },
                     {
                         title: "Step 3: Brewing Process",
                         image: "/pour.JPG",
-                        description: "After that, we followed ancient brewing techniques and instructions with the help of updated lab equipment to begin the brewing process.",
+                        description:
+                            "After that, we followed ancient brewing techniques and instructions with the help of updated lab equipment to begin the brewing process.",
                     },
                     {
                         title: "Step 4: Fermentation",
                         image: "/BEERSS.JPG",
-                        description: "Next, we began pouring warm water through the vessel allowing our enzymes to break down the starch and the fermentation process to begin.",
+                        description:
+                            "Next, we began pouring warm water through the vessel allowing our enzymes to break down the starch and the fermentation process to begin.",
                     },
                     {
                         title: "Step 5: Tasting & Reflection",
                         image: "/BEV.jpg",
-                        description: "Finally, we tasted the brews and compared them to modern beers, reflecting on the complexity and flavor differences.",
+                        description:
+                            "Finally, we tasted the brews and compared them to modern beers, reflecting on the complexity and flavor differences.",
                     },
                 ].map((step, index) => (
-                    <div key={index} className="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg">
-                        <h3 className="text-2xl font-bold text-orange-600">{step.title}</h3>
-                        <div className="mt-4 flex gap-2 items-center">
+                    <div
+                        key={index}
+                        className="bg-white/5 backdrop-blur-md p-6 rounded-2xl shadow-xl"
+                    >
+                        <h3 className="text-2xl font-bold text-orange-500 mb-4 text-center">{step.title}</h3>
+                        <div className="flex flex-col items-center">
                             <img
                                 src={step.image}
                                 alt={step.title}
-                                className="w-50 h-60 rounded-lg object-cover"
+                                className="max-h-[400px] w-auto object-contain rounded-xl mb-6 shadow-md"
                             />
-                            <p className="text-xl text-gray-300">{step.description}</p>
+                            <p className="text-xl text-gray-300 leading-relaxed text-center max-w-prose">
+                                {step.description}
+                            </p>
                         </div>
                     </div>
                 ))}
             </div>
 
+
             {/* Science Behind Brewing */}
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Science Behind Brewing</h2>
-                <p className="mt-4 text-lg">
+                <p className="mt-4 max-w-[90rem] mx-auto mx-auto text-xl">
                     While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it. Working with Vanessa Torros and Zane Johnson (two Yale postdocs in Molecular Biology and Biochemistry), the brewing group members explored not only ancient processes but also modern scientific principles. Traditionally, brewing starts with malting grains like barley and emmer (an early form of wheat that would have been used to beer ancient beer). Malting, which involves XYZ,  initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
                     Using the pot created by local ceramicist and longtime Peabody staff member Maishe Dickman, who built the group several vessels based on ancient pottery remains published in the book TITLE, we were able to construct a filter system that allowed water to percolate through the malt.
                     This water was kept at 150 degrees fahrenheit to ensure that both alpha and beta amylase were active and able to efficiently extract sugars.
@@ -141,7 +152,7 @@ export default function BrewingPage() {
             {/* The Results of the Brewing */}
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Results of the Brewing</h2>
-                <p className="mt-2 text-lg leading-relaxed">
+                <p className="mt-2 max-w-[90rem] mx-auto text-xl leading-relaxed">
                     After going through the rigorous brewing process, it was time to enjoy the beer that was the result of a long and complex brewing process.
                     At the Unequal class cooking event (which you can read more about here),
                     the brewing group provided their work for people to drink as they ate the
@@ -163,7 +174,7 @@ export default function BrewingPage() {
             {/* Brewing of the Past Versus the Present */}
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">Brewing of the Past Versus the Present</h2>
-                <p className="mt-2 text-lg leading-relaxed">
+                <p className="mt-2 max-w-[90rem] mx-auto text-xl leading-relaxed">
                     Throughout the brewing process, I couldn't stop making comparisons between the actions we were taking and the decisions that ancient brewers would have made.
                     For example, we had access to a thermometer which allowed us to make sure that both the alpha and beta amylases would be present to break down the sugars. We also had access to years of research that show that 150
                     degrees is the ideal temperature for this. In ancient Egypt and Mesopotamia, they not only did not know what the exact ideal temperature was, but they also did not have a way to exactly measure the temperature of their water.
@@ -177,7 +188,7 @@ export default function BrewingPage() {
             {/* Interview Section */}
             <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-extrabold text-orange-600">An interview with the Babylonian Brewing Project</h2>
-                <p className="mt-2 text-lg leading-relaxed">
+                <p className="mt-2  max-w-[90rem] mx-auto text-xl leading-relaxed">
                     <span className="font-bold text-white">Conducted by Megan Suka</span>
                     <br /><br />
                     Vanessa Torros and Zane Johnson, Yale postdocs in Molecular Biology and Biochemistry respectively, sat quietly next to a complicated-looking beer keg amidst the spirited chaos of students preparing for the Babylonian Feast. From this impressive keg, Vanessa had poured a small amount of a pinkish-looking liquid into a modest solo cup. I noticed her dipping a pH strip into this mixture and, having piqued my curiosity, I decided to walk over and ask what they were up to.
