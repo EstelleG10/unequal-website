@@ -56,6 +56,7 @@ export default function CookingEventPage() {
                     </div>
 
                     <a href="/gallery" className="hover:text-[#E2A96D] transition-all">Gallery</a>
+                    <a href="/tabula_gratulatoria" className="hover:text-[#E2A96D] transition-all">Tabula Gratulatoria</a>
                 </nav>
             </header>
             <div className="min-h-screen bg-black text-white px-8 py-16">
@@ -74,41 +75,41 @@ export default function CookingEventPage() {
                 </div> */}
 
 
-                </div>
+            </div>
 
 
 
 
-                {/* Images of Case Design */}
-                <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
-                    <div className="flex flex-wrap justify-center gap-2">
-                        <img
-                            src="/harper.jpg"
-                            alt="Example"
-                            className="w-74 h-60 rounded-lg object-cover"
-                        />
-                        <img
-                            src="/CAD.jpeg"
-                            alt="CAD layout"
-                            className="w-74 h-60 rounded-lg object-cover"
-                        />
-                        <img
-                            src="/drawing.jpg"
-                            alt="Drawing layout"
-                            className="w-74 h-60 rounded-lg object-cover"
-                        />
-                    </div>
-                </div>
-
-
-
-                <div className="mt-8 flex justify-center">
+            {/* Images of Case Design */}
+            <div className="mt-8 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg">
+                <div className="flex flex-wrap justify-center gap-2">
                     <img
-                        src="/museum_graphic.png"
-                        alt="Event Poster"
-                        className="w-64 h-auto max-w-xs rounded-lg shadow-lg"
+                        src="/harper.jpg"
+                        alt="Example"
+                        className="w-74 h-60 rounded-lg object-cover"
+                    />
+                    <img
+                        src="/CAD.jpeg"
+                        alt="CAD layout"
+                        className="w-74 h-60 rounded-lg object-cover"
+                    />
+                    <img
+                        src="/drawing.jpg"
+                        alt="Drawing layout"
+                        className="w-74 h-60 rounded-lg object-cover"
                     />
                 </div>
             </div>
+
+
+
+            <div className="mt-8 flex justify-center">
+                <img
+                    src="/museum_graphic.png"
+                    alt="Event Poster"
+                    className="w-64 h-auto max-w-xs rounded-lg shadow-lg"
+                />
+            </div>
+        </div>
     );
 }

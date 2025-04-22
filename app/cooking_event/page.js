@@ -57,6 +57,7 @@ export default function CookingEventPage() {
                     </div>
 
                     <a href="/gallery" className="hover:text-[#E2A96D] transition-all">Gallery</a>
+                    <a href="/tabula_gratulatoria" className="hover:text-[#E2A96D] transition-all">Tabula Gratulatoria</a>
                 </nav>
             </header>
 

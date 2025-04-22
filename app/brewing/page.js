@@ -52,6 +52,7 @@ export default function BrewingPage() {
                     </div>
 
                     <a href="/gallery" className="hover:text-[#E2A96D] transition-all">Gallery</a>
+                    <a href="/tabula_gratulatoria" className="hover:text-[#E2A96D] transition-all">Tabula Gratulatoria</a>
                 </nav>
             </header>
 
@@ -137,7 +138,7 @@ export default function BrewingPage() {
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Science Behind Brewing</h2>
                 <p className="mt-4 max-w-[90rem] mx-auto mx-auto text-xl">
-                    While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it. Working with Vanessa Torros and Zane Johnson (two Yale postdocs in Molecular Biology and Biochemistry), the brewing group members explored not only ancient processes but also modern scientific principles. Traditionally, brewing starts with malting grains like barley and emmer (an early form of wheat that would have been used to beer ancient beer). Malting, which involves XYZ,  initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
+                    While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it. Working with Vanessa Torros and Zane Johnson (two Yale postdocs in Molecular Biology and Biochemistry), the brewing group members explored not only ancient processes but also modern scientific principles. Traditionally, brewing starts with malting grains like barley and emmer (an early form of wheat that would have been used to beer ancient beer). Malting, which involves the grain being steeped in water and then dried,  initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
                     Using the pot created by local ceramicist and longtime Peabody staff member Maishe Dickman, who built the group several vessels based on ancient pottery remains published in the book TITLE, we were able to construct a filter system that allowed water to percolate through the malt.
                     This water was kept at 150 degrees fahrenheit to ensure that both alpha and beta amylase were active and able to efficiently extract sugars.
                     From there, the group used an iodine test to keep an eye on the wort’s starch levels. When iodine is added to a liquid sample like our wort, the sample will either turn blue or brown.
@@ -162,12 +163,10 @@ export default function BrewingPage() {
 
                     <br></br>
                     <br></br>
-                    In addition to the work of the brewing group being enjoyed, it was also used by the trace residue group. The vats in which the beer was brewed were used for trace residue analysis with the hope of contributing to research at the Yale Ancient Pharmacology Program. You can click HERE to read more about the results of this testing and the process.
+                    In addition to the work of the brewing group being enjoyed, it was also used by the trace residue group. The vats in which the beer was brewed were used for trace residue analysis with the hope of contributing to research at the Yale Ancient Pharmacology Program. You can click <a href="/trace_residue" className=" hover:text-[#E2A96D]">here</a> to read more about the results of this testing and the process.
                     <br></br>
                     <br></br>
                     <br></br>
-
-                    ** add link to trace residue and cooking event ** <br />
                 </p>
             </div>
 
@@ -227,7 +226,7 @@ export default function BrewingPage() {
                     <br />
                     <span className="font-extrabold text-white">Vanessa:</span> Thank you! The biggest difference between this beer and contemporary beers is that this one contains no hops. Mesopotamian beer contained barley and emmer; since emmer is so closely related to wheat, we used wheat and barley in this recipe. It’s a lot different from what we’re used to drinking nowadays.
                     <br /><br />
-                    Vanessa and Zane’s brewing efforts are part of a larger project at Yale led by Dr. Andrew Koh, who is working to create novel protocols for trace residue analysis. You can read more about this project here [HYPERLINK TO TRACE RESIDUE PAGE]
+                    Vanessa and Zane’s brewing efforts are part of a larger project at Yale led by Dr. Andrew Koh, who is working to create novel protocols for trace residue analysis. You can read more about this project <a href="/trace_residue" className=" hover:text-[#E2A96D]">here</a>.
                 </p>
             </div>
         </div>
