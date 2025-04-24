@@ -65,6 +65,7 @@ export default function CookingEventPage() {
             {/* Title & Event Date */}
             <div className="text-center">
                 <h1 className="text-7xl font-extrabold drop-shadow-md">Trace Residue</h1>
+                <p className="text-md text-grey-300 font-semibold mt-1">Words by Megan Suka</p>
             </div>
 
             {/* Event Picture */}

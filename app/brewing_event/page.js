@@ -65,7 +65,7 @@ export default function CookingEventPage() {
             {/* Title & Event Date */}
             <div className="text-center">
                 <h1 className="text-7xl font-extrabold drop-shadow-md">Brewing Event</h1>
-                <h2 className="text-3xl font-extrabold drop-shadow-md">A DESCFIPTION NEEDED</h2>
+                <h2 className="text-3xl font-extrabold drop-shadow-md">An Evening of Drinking With the Ancients</h2>
                 <p className="text-md text-grey-300 font-semibold mt-1">March 6th, 2025</p>
                 <p className="text-md text-grey-300 font-semibold mt-1">Words by Megan Suka</p>
             </div>
@@ -97,6 +97,11 @@ export default function CookingEventPage() {
                     Etiquette aside, Mesopotamian drinking culture was as socially significant as it was economically indispensable. Thousands of cuneiform tablets have been recovered which detail administrative accounts of commercial logistics, like grain stores, delivery receipts, brewing recipes, and tavern locations. They were remarkably specific: you might find an inventory of types and quantities of beer and instructions for how much should be delivered to various locations. Other evidence includes protective rituals; prayers and hymns to Ninkasi, goddess of brewing; drinking songs; and narrative accounts of drunkenness varying from “slightly buzzed” to what can only be described as “dangerously wasted.”
                 </p>
 
+                {/* Event Picture  */}
+                <div className="mt-8 flex justify-center">
+                    <img src="/beertalk2.jpeg" alt="Event Poster" className="max-w-2xl w-full rounded-xl shadow-lg mx-auto" />
+                </div>
+
                 <p>
                     After the lecture and a lively Q&A, guests eagerly swarmed the bar set up among the towering dinosaurs in Burke Hall for a chance to sample ancient brews. As an accompaniment to Dr. Paulette’s talk, Yale School of Medicine researchers Vanessa Todorow, Zane Johnson and Christian Mahl—who have spent the semester as auxiliary course instructors in NELC120 in charge of the brewing team—offered samples of two Mesopotamian beers that they brewed specially for this event, following recipes developed in an inter-departmental effort to re-create these ancient beverages.
                 </p>
@@ -108,6 +113,11 @@ export default function CookingEventPage() {
                 <p>
                     As both an accessible educational experience open to the New Haven public and a hands-on enrichment of the brewing team’s course contributions, the event was a fascinating, fun, and charming experience for all in attendance. Learning about Dr. Paulette’s research, while simultaneously incorporating his insights with the process of our archaeological and brewing efforts in class, brought us closer to understanding the significance of Mesopotamian beer culture than we could have achieved in the classroom alone.
                 </p>
+
+                {/* Event Picture  */}
+                <div className="mt-8 flex justify-center">
+                    <img src="/standingup.jpeg" alt="Event Poster" className="max-w-2xl w-full rounded-xl shadow-lg mx-auto" />
+                </div>
 
                 <p className="text-lg text-gray-400 italic">
                     The lecture and event was generously organized with funding from the Yale Peabody Museum, Yale’s Department of Near Eastern Languages and Civilizations, Department of Anthropology, the Yale Ancient Pharmacology Program, The Yale Babylonian Collection, and the Franke Program in Science and the Humanities.
