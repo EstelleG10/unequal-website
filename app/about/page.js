@@ -75,7 +75,7 @@ export default function UnequalInterviewPage() {
                 {/* Intro Title */}
                 <header className="text-center space-y-2">
                     <h1 className="text-6xl text-[#E2A96D] font-bold tracking-tight">
-                        <span className="">UNEQUAL: As Explained the Syllabus</span>
+                        <span className="">UNEQUAL: As Explained in the Syllabus</span>
                     </h1>
                 </header>
 
@@ -100,7 +100,7 @@ export default function UnequalInterviewPage() {
                 {/* Interview Title */}
                 <header className="text-center space-y-2">
                     <h1 className="text-6xl text-[#E2A96D] font-bold tracking-tight">
-                        <span className="italic">An interview with Professor Morel</span>
+                        <span className="italic">An interview with Dr. Morel</span>
                     </h1>
                 </header>
 
@@ -186,7 +186,7 @@ export default function UnequalInterviewPage() {
                         <h2 className="text-3xl font-bold">
                             What surprised me most, as an instructor, was the passion, creativity, and intellectual curiosity of Yale students—always engaged, full of initiative, and asking sharp, thoughtful questions. As my time at Yale comes to an end, I know I’ll truly miss the Unequal students I’ve been lucky to work with. Co-teaching this course with Gojko on such complex topics was a challenge—but also the most rewarding teaching experience I’ve had so far. We learned as much from our students as they did from us, and I believe we’re all walking away with our minds more open.
                         </h2>
-                        <p className="text-right italic text-2xl text-gray-400">— Professor Vincent Morel, co-instructor of Unequal</p>
+                        <p className="text-right italic text-2xl text-gray-400">— Dr. Vincent Morel, co-instructor of Unequal</p>
                     </div>
                 </section>
 
