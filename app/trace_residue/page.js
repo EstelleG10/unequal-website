@@ -16,7 +16,11 @@ export default function CookingEventPage() {
         <div className="min-h-screen bg-black text-white pt-24 px-8 pb-16 font-serif">
             {/* Header */}
             <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
-                <h2 className="text-3xl font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
+                <h2 className="text-3xl text-white font-extrabold tracking-widest drop-shadow-lg">
+                    <Link href="/" className="hover:text-[#E2A96D] transition-all">
+                        UNEQUAL
+                    </Link>
+                </h2>
                 <nav className="flex gap-6 relative text-white text-lg font-semibold">
                     <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
 
@@ -68,9 +72,17 @@ export default function CookingEventPage() {
                 <p className="text-md text-grey-300 font-semibold mt-1">Words by Megan Suka</p>
             </div>
 
-            {/* Event Picture */}
-            <div className="mt-8 max-w-4xl mx-auto flex justify-center">
-                <img src="/trsquad.jpeg" alt="picture" className="" />
+
+            {/* Slideshow Presentation */}
+            <div className="mt-12 text-center">
+                <div className="flex justify-center">
+                    <iframe
+                        src="https://docs.google.com/presentation/d/1CK36NWGWRvz7Gcf3dPHbVaVATonX0QTDkGGiAqIpmVg/embed?start=true&loop=true&delayms=5000"
+                        className="w-full max-w-4xl h-[700px] rounded-xl shadow-xl border border-orange-500"
+                        allowFullScreen
+                        title="Journalism Group Slideshow"
+                    ></iframe>
+                </div>
             </div>
 
             {/* Trace Residue Description */}
@@ -78,7 +90,10 @@ export default function CookingEventPage() {
                 <p>As I walked into an unassuming laboratory in the Yale Peabody Museum’s basement, I noticed two things: first, the distinctive whiff of acetone; second, the beaming smile on Dr. Andrew Koh’s face. Koh was preparing his students for a novel experiment in Trace Residue Analysis: a process of extracting specific chemical compounds (also known as “biomarkers”) from artifacts to detect residues of ancient substances, including foodstuffs, resins, or beverages, typically using methods such as Gas Chromatography–Mass Spectrometry (GC-MS).</p>
 
                 <p>As the founder of the ARCHEM project in 2003, Koh has specialized in the development of a field he calls archaeochemistry. He believes that current methodologies of artifact analysis are falling short of their potential, and that a more interdisciplinary approach—combining chemistry, archaeology, ethnobotany and history—could reveal more than strict chemical analysis alone. As Koh puts it: “We're trying to make this archaeochemistry, not just pure chemistry."</p>
-
+                {/* Event Picture */}
+                <div className="mt-8 max-w-4xl mx-auto flex justify-center">
+                    <img src="/trsquad.jpeg" alt="picture" className="" />
+                </div>
                 <p>Besides the limiting nature of a strictly chemistry-driven approach to trace residue analysis, it typically comes with other challenges. For instance, the traditional protocol used by chemists—which requires the extraction and pulverization of a small sample from the artifact itself by drilling a small hole and collecting the remnants—is inherently destructive. This can put chemists at odds with museum conservators who wish to limit damage to their collections. Koh and his team have found a brilliant solution to this problem: they have developed a protocol in which artifacts can be “washed” with solvents that extract trace residues without damaging the artifacts themselves.</p>
 
                 {/* Event Picture */}

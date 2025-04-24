@@ -11,7 +11,11 @@ export default function BrewingPage() {
         <div className="min-h-screen bg-black text-white pt-24 px-8 pb-16 font-serif">
             {/* Header */}
             <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
-                <h2 className="text-3xl font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
+                <h2 className="text-3xl text-white font-extrabold tracking-widest drop-shadow-lg">
+                    <Link href="/" className="hover:text-[#E2A96D] transition-all">
+                        UNEQUAL
+                    </Link>
+                </h2>
                 <nav className="flex gap-6 relative text-white text-lg font-semibold">
                     <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
 
@@ -63,14 +67,28 @@ export default function BrewingPage() {
                 <p className="text-lg text-white mt-2">Words by Estelle Gerber</p>
             </div>
 
+            {/* Slideshow Presentation */}
+            <div className="mt-12 text-center">
+                <div className="flex justify-center">
+                    <iframe
+                        src="https://docs.google.com/presentation/d/1PddfrkvMeU9EJ-yMyj1DMbi7zbFw6sPhElSvSW1epj0/embed?start=true&loop=true&delayms=5000"
+                        className="w-full max-w-4xl h-[700px] rounded-xl shadow-xl border border-orange-500"
+                        allowFullScreen
+                        title="Journalism Group Slideshow"
+                    ></iframe>
+                </div>
+            </div>
+
+
+
             {/* Main image */}
-            <div className="mt-8 flex justify-center">
+            {/* <div className="mt-8 flex justify-center">
                 <img
                     src="/great.JPG"
                     alt="Event Poster"
                     className="w-300 h-100 max-w-3xl rounded-lg shadow-lg"
                 />
-            </div>
+            </div> */}
 
             {/* Project Overview */}
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
@@ -159,7 +177,7 @@ export default function BrewingPage() {
                     the brewing group provided their work for people to drink as they ate the
                     food we prepared. Everyone I spoke to really enjoyed the beer and it was
                     interesting to see people try the store bought beer and compare it to the brewing group’s creation.
-                   
+
 
                     <br></br>
                     <br></br>
@@ -228,7 +246,22 @@ export default function BrewingPage() {
                     <br /><br />
                     Vanessa and Zane’s brewing efforts are part of a larger project at Yale led by Dr. Andrew Koh, who is working to create novel protocols for trace residue analysis. You can read more about this project <a href="/trace_residue" className=" underline text-[#E2A96D]">here</a>.
                 </p>
+
+                {/* Brew Group Final Report */}
+                <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
+                    <h2 className="text-3xl font-bold text-orange-600">The Brewing Group's Final Report </h2>
+                </div>
+
+                <div className="flex justify-center">
+                    <iframe
+                        src="https://docs.google.com/document/d/1g5-vwLuI6Qi4sAjOHpflewe1mElplEWe35aPsM3cKsE/preview"
+                        className="w-full max-w-4xl h-[800px] rounded-xl shadow-xl border border-orange-500"
+                        title="UNEQUAL Google Doc"
+                    ></iframe>
+                </div>
             </div>
+
+
         </div>
     );
 }

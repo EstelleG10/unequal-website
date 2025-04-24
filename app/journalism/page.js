@@ -11,7 +11,11 @@ export default function BrewingPage() {
         <div className="min-h-screen bg-black text-white pt-24 px-8 pb-16 font-serif">
             {/* Header */}
             <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
-                <h2 className="text-3xl font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
+                <h2 className="text-3xl text-white font-extrabold tracking-widest drop-shadow-lg">
+                    <Link href="/" className="hover:text-[#E2A96D] transition-all">
+                        UNEQUAL
+                    </Link>
+                </h2>
                 <nav className="flex gap-6 relative text-white text-lg font-semibold">
                     <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
 
@@ -67,10 +71,10 @@ export default function BrewingPage() {
             <div className="mt-12 text-center">
                 <div className="flex justify-center">
                     <iframe
-                        src="https://docs.google.com/presentation/d/1qbZDkLnVTtNnBs-xrVHE2C5FqxeesovZvDU3QNlJFps/embed?start=true&loop=true&delayms=5000"
+                        src="https://docs.google.com/presentation/d/1rRbzYpiUIYp0YPGiop0VkKbavWHoF5tTBzXt52stGOQ/embed?start=true&loop=true&delayms=5000"
                         className="w-full max-w-4xl h-[700px] rounded-xl shadow-xl border border-orange-500"
                         allowFullScreen
-                        title="Journalism Group Slideshow"
+                        title="Second Journalism Group Slideshow"
                     ></iframe>
                 </div>
             </div>
@@ -78,10 +82,7 @@ export default function BrewingPage() {
 
 
 
-            {/* Event Picture  */}
-            <div className="mt-8 flex justify-center">
-                <img src="/slideone.jpg" alt="Event Poster" className="max-w-4xl w-full rounded-xl shadow-lg mx-auto" />
-            </div>
+
 
             {/* Project Overview */}
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">

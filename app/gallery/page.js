@@ -68,7 +68,11 @@ const MasonryGallery = () => {
     <div className="min-h-screen bg-black text-white pt-24 px-8 pb-16 font-serif">
       {/* Header */}
       <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
-        <h2 className="text-3xl font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
+        <h2 className="text-3xl text-white font-extrabold tracking-widest drop-shadow-lg">
+          <Link href="/" className="hover:text-[#E2A96D] transition-all">
+            UNEQUAL
+          </Link>
+        </h2>
         <nav className="flex gap-6 relative text-white text-lg font-semibold">
           <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
           <Link href="/about" className="hover:text-[#E2A96D] transition-all">About</Link>

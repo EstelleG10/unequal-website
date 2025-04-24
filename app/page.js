@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link"
 
-const BACKGROUND_IMAGE = "/AI.webp";
+const BACKGROUND_IMAGE = "/hebackground.jpg";
 
 export default function HomePage() {
   const [showGroups, setShowGroups] = useState(false);
@@ -15,7 +15,11 @@ export default function HomePage() {
     >
       {/* Header */}
       <header className="fixed top-0 left-0 w-full bg-black/60 backdrop-blur-md py-4 px-6 flex justify-between items-center z-50">
-        <h2 className="text-3xl text-white font-extrabold tracking-widest drop-shadow-lg">UNEQUAL</h2>
+        <h2 className="text-3xl text-white font-extrabold tracking-widest drop-shadow-lg">
+          <Link href="/" className="hover:text-[#E2A96D] transition-all">
+            UNEQUAL
+          </Link>
+        </h2>
         <nav className="flex gap-6 relative text-white text-lg font-semibold">
           <Link href="/" className="hover:text-[#E2A96D] transition-all">Home</Link>
 
@@ -64,7 +68,7 @@ export default function HomePage() {
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Main Content */}
-      <div className="relative z-10 bg-black/80 p-10 rounded-xl text-white text-center max-w-3xl shadow-lg border-4 border-dashed border-[#b33000] mt-16">
+      <div className="relative z-10 bg-black/80 p-10 rounded-xl text-white text-center max-w-3xl shadow-lg border-4 border-dashed border-[#E2A96D] mt-16">
         <h1 className="text-6xl font-extrabold tracking-tight drop-shadow-lg">𓏋 𓏏 𓏊 UNEQUAL 𓏊 𓏏 𓏋</h1>
         <p className="text-lg mt-4 text-gray-300 leading-relaxed">
           <span className="font-semibold text-white">UNEQUAL</span> is an interactive course exploring power, inequality, and ancient societies. Through hands-on experimentation, we study
