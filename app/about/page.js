@@ -71,16 +71,30 @@ export default function UnequalInterviewPage() {
             </header>
 
             {/* Main Content */}
-            <main className="mx-auto max-w-3xl p-6 space-y-12">
+            <main className="mx-auto max-w-6xl p-6 space-y-12">
                 {/* Intro Title */}
                 <header className="text-center space-y-2">
                     <h1 className="text-6xl text-[#E2A96D] font-bold tracking-tight">
-                        <span className="">UNEQUAL Explained</span>
+                        <span className="">UNEQUAL: As Explained the Syllabus</span>
                     </h1>
                 </header>
 
-                <p>
-                    WORDS
+                <p className="text-xl leading-relaxed">
+                    “Unequal” examines the historical roots of intolerance, slavery, and imperialism, emphasizing how our
+                    perceptions of history shape contemporary beliefs and policies. It challenges the notion that inequality is
+                    an inevitable outcome of societal complexity and posits that dominant historical narratives often frame
+                    progress and freedom while obscuring themes of disparity. By investigating early human history, the
+                    course unpacks concepts of identity, possession, value, freedom, and power and explores their impact on
+                    modern society. It centers on a set of general questions about human culture drawn from “the first half
+                    of human history” – documented through the sources of ancient Egypt and Mesopotamia where states,
+                    cities, writing, and, arguably, glaring social inequality, all began. It employs a set of experimental lab
+                    assignments that allows students to engage with the deep past through the study of ancient food recipes,
+                    beer brewing, and museum collections, and invites them to leverage personal strengths in STEM or the
+                    Arts to build their work. The interdisciplinary approach to course assignments generates a deeper
+                    appreciation of historical contexts that inform present-day issues and invites students to rethink common
+                    narratives and assumptions about equality and progress. Ultimately, the course aims to foster critical
+                    thinking about the interplay between history and contemporary society.
+
                 </p>
 
                 {/* Interview Title */}
@@ -138,11 +152,84 @@ export default function UnequalInterviewPage() {
                     </p>
                 </section>
 
-                {/* Reflection */}
+                {/* Interview Title */}
+                <header className="text-center space-y-2">
+                    <h1 className="text-6xl text-[#E2A96D] font-bold tracking-tight">
+                        <span className="italic">When Asked What Surprised Them About the Course:</span>
+                    </h1>
+                </header>
+
+
+                {/* Question 1 */}
                 <section className="space-y-4">
-                    <h2 className="text-3xl font-bold">Words From the Journalism Team</h2>
-                    <p>PUT WORDS HERE FROM US</p>
+                    <div>
+                        <h2 className="text-3xl font-bold">
+                            What surprised me the most about this course was not only that we had the opportunity to brew beer as part of it but also that the first-hand experience of brewing beer was rather non-trivial even when relying upon modern technology, which helped to greatly strengthen my understanding of the labor that must have been required to brew in Ancient Egypt and Mesopotamia.
+                        </h2>
+                        <p className="text-right italic text-2xl text-gray-400">— Rohan Thakur, brewing student in Unequal</p>
+                    </div>
                 </section>
+
+                {/* Question 2 */}
+                <section className="space-y-4">
+                    <div>
+                        <h2 className="text-3xl font-bold">
+                            That the assignments actually seem to have worked out and that we didn't burn down HQ when we did the cooking.
+                        </h2>
+                        <p className="text-right italic text-2xl text-gray-400">— Professor Gojko Barjamovic, co-instructor of Unequal</p>
+                    </div>
+                </section>
+
+                {/* Question 3 */}
+                <section className="space-y-4">
+                    <div>
+                        <h2 className="text-3xl font-bold">
+                            What surprised me most, as an instructor, was the passion, creativity, and intellectual curiosity of Yale students—always engaged, full of initiative, and asking sharp, thoughtful questions. As my time at Yale comes to an end, I know I’ll truly miss the Unequal students I’ve been lucky to work with. Co-teaching this course with Gojko on such complex topics was a challenge—but also the most rewarding teaching experience I’ve had so far. We learned as much from our students as they did from us, and I believe we’re all walking away with our minds more open.
+                        </h2>
+                        <p className="text-right italic text-2xl text-gray-400">— Professor Vincent Morel, co-instructor of Unequal</p>
+                    </div>
+                </section>
+
+                {/* Question 3 */}
+                <section className="space-y-4">
+                    <div>
+                        <h2 className="text-3xl font-bold">
+                            I think the sheer amount of information I have learned about a topic I was wholly unfamiliar with is the best and most surprising thing about this course.
+                        </h2>
+                        <p className="text-right italic text-2xl text-gray-400">— Maia Donath, trace residue student in Unequal</p>
+                    </div>
+                </section>
+
+                {/* Question 3 */}
+                <section className="space-y-4">
+                    <div>
+                        <h2 className="text-3xl font-bold">
+                            What surprised me the most about the course was how engaging all the readings were. I didn't really have any expectations coming into the class, but I wouldn't have imagined that all the texts would feel so relevant considering we're discussing ancient Egypt and Mesopotamia.
+                        </h2>
+                        <p className="text-right italic text-2xl text-gray-400">— Samantha Lopez, trace residue student in Unequal</p>
+                    </div>
+                </section>
+
+                {/* Question 3 */}
+                <section className="space-y-4">
+                    <div>
+                        <h2 className="text-3xl font-bold">
+                            I was most suprised by our section being in the peabody museum. It was the first time I was exposed to such a unique and surreal experience of artifacts from the ancient past weve been talking about this entire semester. I really think it cultivated a Yale experience like no other!
+                        </h2>
+                        <p className="text-right italic text-2xl text-gray-400">— Johnathan McGee, trace residue student in Unequal</p>
+                    </div>
+                </section>
+
+                {/* Question 3 */}
+                <section className="space-y-4">
+                    <div>
+                        <h2 className="text-3xl font-bold">
+                            Coming into this course I mostly thought it would explore case studies on inequality and would be like a recount of history. I couldn’t have been more wrong. What I got was a tapestry and ancient Egyptian and Mesopotamian history, telling the story of these people and how the inequalities of our time are reflected back then as well.
+                        </h2>
+                        <p className="text-right italic text-2xl text-gray-400">— Miles Yamner, museum student in Unequal</p>
+                    </div>
+                </section>
+
             </main>
         </div>
     );

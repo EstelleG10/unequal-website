@@ -78,7 +78,7 @@ export default function HomePage() {
         <div className="mt-8 flex flex-wrap justify-center gap-6 max-w-3xl">
           <a href="/brewing" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Brewing</a>
           <a href="/museum" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Museum Exhibit</a>
-          <a href="/gallery" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Image Gallery</a>
+          <a href="/journalism" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Journalism</a>
           <a href="/trace-residue" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Trace Residue</a>
           <a href="/brewing_event" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Brewing Event</a>
           <a href="/cooking_event" className="px-6 py-3 w-60 text-center rounded-xl bg-[#E2A96D] text-white font-semibold text-lg hover:bg-[#661c00] transition-all shadow-lg">Cooking Event</a>

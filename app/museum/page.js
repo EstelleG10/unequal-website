@@ -150,15 +150,6 @@ export default function CookingEventPage() {
                     </div>
                 </div>
 
-
-
-                <div className="mt-8 flex justify-center">
-                    <img
-                        src="/museum_graphic.png"
-                        alt="Event Poster"
-                        className="w-64 h-auto max-w-xs rounded-lg shadow-lg"
-                    />
-                </div>
             </div>
         </div>
     );

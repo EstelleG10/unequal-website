@@ -96,12 +96,13 @@ export default function CookingEventPage() {
                         <div className="w-full max-w-3xl aspect-video rounded-lg overflow-hidden shadow-lg">
                             <iframe
                                 className="w-full h-full"
-                                src="https://www.youtube.com/embed/07ca_bVZaCc"
+                                src="https://www.youtube.com/embed/TLYNCPFMCQo"
                                 title="Event Video"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
                             ></iframe>
+
                         </div>
                     </div>
                 </div>
