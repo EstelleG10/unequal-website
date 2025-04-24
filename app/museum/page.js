@@ -66,13 +66,17 @@ export default function CookingEventPage() {
                     <p className="text-2xl text-orange-600 mt-2">Exploring curation of ancient objects at the Yale Peabody Museum.</p>
                 </div>
 
-                {/* <div className="mt-8 flex justify-center">
-                    <img
-                        src="/museum_graphic.png"
-                        alt="Event Poster"
-                        className="w-64 h-auto max-w-xs rounded-lg shadow-lg"
-                    />
-                </div> */}
+                {/* Slideshow Presentation */}
+                <div className="mt-12 text-center">
+                    <div className="flex justify-center">
+                        <iframe
+                            src="https://docs.google.com/presentation/d/1qbZDkLnVTtNnBs-xrVHE2C5FqxeesovZvDU3QNlJFps/embed?start=true&loop=true&delayms=5000"
+                            className="w-full max-w-4xl h-[700px] rounded-xl shadow-xl border border-orange-500"
+                            allowFullScreen
+                            title="Journalism Group Slideshow"
+                        ></iframe>
+                    </div>
+                </div>
 
 
                 <div className="mt-4 space-y-6 text-lg leading-relaxed text-gray-300">
