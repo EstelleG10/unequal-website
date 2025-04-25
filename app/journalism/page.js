@@ -101,6 +101,9 @@ export default function BrewingPage() {
                     <br></br>
                     <br></br>
                     I feel incredibly lucky to have had such fantastic journalism partners to navigate this experience with. Our balance felt just right, and it was the fodder for both individual and collective reflection, growth, and creative output. We each brought different strengths and perspectives, and together, we found a rhythm that made space for thoughtful collaboration without stifling individual voice.
+                    <br></br>
+                    <br></br>
+                    Where the first reflection explored questions of structure and participation, the next turns to the challenge of shaping a story from complexity—making sense of diverse methods and disciplines through collaborative writing.
 
                 </p>
             </div>
@@ -110,19 +113,17 @@ export default function BrewingPage() {
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Architecture of Story</h2>
                 <p className="mt-6 max-w-[90rem] mx-auto text-xl">
-                    The meta-experience of being in a process, observing the processes of others, and then reflecting on both has always fascinated me. This course offered a rare opportunity to do all three at once. From the start, the structure felt intentionally loose—an experiment in itself. At times, it felt like there wasn’t enough leadership, which led to a “too many cooks in the kitchen” atmosphere. But that friction gave way to something unexpectedly rich: strategies were improvised, roles negotiated, and new ways of collaborating emerged among students and staff alike.
+                    One of the most challenging aspects of covering so many diverse disciplines—archaeology, biology, chemistry, museum curation, and anthropology—was deciding what to include and what to leave out. These fields can feel wildly disconnected at first glance, but our task was to find a throughline and shape a coherent narrative. Doing that required us to dig deeply into each group’s process and theoretical foundation, so we could grasp the fine details as well as the bigger picture. Only then could we figure out what would actually resonate with a broader audience. It was demanding work, but incredibly rewarding. By the end, it felt like we had a bird’s-eye view of the entire course in motion.
                     <br></br>
                     <br></br>
-                    The whole thing was intimidating from the onset. Taking on the role of journalist, in particular, felt daunting. The responsibility to observe, analyze, and re-present something as it was happening felt impossibly large. And yet, that’s exactly the space I needed to be in—to grow, to step back, and to participate differently than I have in other academic settings.
+                    It also turned out to be a rare exercise in teamwork—something surprisingly hard to come by in Yale’s often individualistic academic environment. That made it even more valuable. Coming together as near-strangers, we had to negotiate things like workload, areas of interest, and tone. Our investigations were often fragmentary, but we pieced them into something cohesive. We were lucky, too: our group dynamics were marked by kindness, encouragement, and a strong sense of shared responsibility. Over time, we developed an intuitive rhythm with one another, and that rhythm became one of the most meaningful takeaways for me.
                     <br></br>
                     <br></br>
-                    It’s a strange thing to write about an experience for others. How do you stay present, observant, and analytical all at once—and then translate that into something digestible for a general audience? But this is also what humans do. We tell stories. We document what matters to us. And even when it feels impossible, people still want to know what others have to say.
+                    I’ve always loved research and writing, but approaching it from a journalistic—rather than academic—perspective forced me out of my usual habits. Writing for an audience that likely had no background in these topics required us to rethink what mattered, what needed explanation, and what could be left unsaid. In doing so, it pushed me to reassess my own understanding of the material. It was humbling and clarifying all at once.
+
                     <br></br>
                     <br></br>
-                    This course explored feasting and drinking as more than sustenance—as social tools for shaping identity, belonging, and exclusion. Ironically, we experienced similar patterns within our own class: the formation of assignment groups, the negotiation of status, and the subtle bureaucratic weight of academic hierarchy. We are at Yale, after all. But within that framework, there was also room for creativity, conflict, and care. It was messy, yes—but that mess gave us something real to write about.
-                    <br></br>
-                    <br></br>
-                    I feel incredibly lucky to have had such fantastic journalism partners to navigate this experience with. Our balance felt just right, and it was the fodder for both individual and collective reflection, growth, and creative output. We each brought different strengths and perspectives, and together, we found a rhythm that made space for thoughtful collaboration without stifling individual voice.
+                    As the narrative took shape, so did the platform it would live on. The final reflection turns to the technical and creative labor behind building the website itself—another act of collaboration and experimentation.
 
                 </p>
             </div>
