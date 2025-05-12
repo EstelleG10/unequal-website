@@ -58,6 +58,16 @@ const images = [
   { src: "/cheese.jpeg", alt: "Portrait 6", orientation: "landscape" },
   { src: "/classpeabody2.jpeg", alt: "Portrait 6", orientation: "portrait" },
   { src: "/beertalk2.jpeg", alt: "Portrait 6", orientation: "landscape" },
+
+
+  { src: "/add1.jpg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/present.jpeg", alt: "L 6", orientation: "landscape" },
+  { src: "/add2.jpg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/present1.jpeg ", alt: "Landscape 6", orientation: "landscape" },
+  { src: "/add.jpg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/present5.jpeg", alt: "Portrait 6", orientation: "landscape" },
+  { src: "/class_pic.jpeg", alt: "Portrait 6", orientation: "portrait" },
+  { src: "/present3.jpeg", alt: "Portrait 6", orientation: "landscape" },
 ];
 
 const MasonryGallery = () => {
