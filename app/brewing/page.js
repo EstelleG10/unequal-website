@@ -221,7 +221,7 @@ export default function BrewingPage() {
                     <br /><br />
                     <span className="font-extrabold text-white">Megan:</span> So the sugars increase the acidity, and basically have the dual effect of getting you drunker while inoculating the mixture against contamination?
                     <br />
-                    <span className="font-extrabold text-white">Vanessa:</span> That’s right.
+                    <span className="font-extrabold text-white">Vanessa:</span> Not quite—sugar is the main food source for yeast, but it doesn’t directly increase acidity. As yeast metabolize the sugar, they produce organic acids like acetic acid, which release protons (H⁺) and lower the pH of the wort. So it’s the yeast activity—not the sugar itself—that acidifies the mixture. And while higher sugar means higher alcohol, it doesn’t necessarily mean lower pH, since each yeast has a preferred pH range around 4.0–4.5.
                     <br /><br />
                     <span className="font-extrabold text-white">Megan:</span> How elegant.
                     <br />
@@ -245,6 +245,13 @@ export default function BrewingPage() {
                     <br /><br />
                     Vanessa and Zane’s brewing efforts are part of a larger project at Yale led by Dr. Andrew Koh, who is working to create novel protocols for trace residue analysis. You can read more about this project <a href="/trace_residue" className=" underline text-[#E2A96D]">here</a>.
                 </p>
+
+                <p className="mt-6 text-xl text-center text-[#E2A96D] underline hover:text-orange-400 transition-all">
+                    <a href="https://news.yale.edu/2025/04/30/brewing-history-yale-course-recreates-ancient-ales-mixing-science-anthropology-history" target="_blank" rel="noopener noreferrer">
+                        → Read more in Yale Daily News: “Brewing history: Yale course recreates ancient ales mixing science, anthropology, history”
+                    </a>
+                </p>
+
 
                 {/* Brew Group Final Report */}
                 <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
