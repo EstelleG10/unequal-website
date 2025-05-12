@@ -95,7 +95,18 @@ export default function Contributors() {
 
             {/* Contributors Section */}
             <div className="max-w-4xl mx-auto px-6 py-2 text-white font-serif">
-                <h2 className="text-4xl font-bold mb-8 text-center">It Takes a Village…</h2>
+                <h2 className="text-4xl font-bold mb-8 text-center">It Takes a Village...</h2>
+
+                <p className="mb-4 text-lg">
+                    We are grateful to our many supporters and collaborators for making this course and its events possible:
+                </p>
+
+                <p className="mb-8 text-lg">
+                    Events and activities were organized with funding from Yale’s Department of Near Eastern Languages and Civilizations,
+                    the Department of Anthropology, The Yale Peabody Museum, the Yale Program in Ancient Pharmacology,
+                    the Yale Babylonian Collection, The Franke Program in Science and the Humanities, and the Willoughbyby Fund.
+                </p>
+
                 <ul className="space-y-4 border border-gray-700 rounded-xl p-6 bg-black/40 backdrop-blur-md shadow-md">
                     {contributors.map((name, idx) => (
                         <li key={idx} className="border-b border-gray-700 last:border-none pb-2">

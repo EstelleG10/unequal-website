@@ -64,7 +64,6 @@ export default function BrewingPage() {
             <div className="text-center mt-6">
                 <h1 className="text-8xl font-extrabold drop-shadow-md">The Brewing Group</h1>
                 <p className="text-lg text-orange-600 mt-2">Recreating Ancient Brewing Techniques.</p>
-                <p className="text-lg text-white mt-2">Words by Estelle Gerber</p>
             </div>
 
             {/* Slideshow Presentation */}
@@ -156,7 +155,7 @@ export default function BrewingPage() {
             <div className="mt-6 bg-black/50 backdrop-blur-md p-6 rounded-lg shadow-lg text-gray-300">
                 <h2 className="text-3xl font-bold text-orange-600">The Science Behind Brewing</h2>
                 <p className="mt-4 max-w-[90rem] mx-auto mx-auto text-xl">
-                    While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it. Working with Vanessa Torros and Zane Johnson (two Yale postdocs in Molecular Biology and Biochemistry), the brewing group members explored not only ancient processes but also modern scientific principles. Traditionally, brewing starts with malting grains like barley and emmer (an early form of wheat that would have been used to beer ancient beer). Malting, which involves the grain being steeped in water and then dried,  initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
+                    While attending one of the brewing group's meetings, I had the chance to gain a deeper understanding of the brewing process and the science behind it. Working with Vanessa Todorow and Zane Johnson (two Yale postdocs in Molecular Biology and Biochemistry), the brewing group members explored not only ancient processes but also modern scientific principles. Traditionally, brewing starts with malting grains like barley and emmer (an early form of wheat that would have been used to beer ancient beer). Malting, which involves the grain being steeped in water and then dried,  initiates germination, which activates the enzymes needed to convert starches to fermentable sugars.
                     Using the pot created by local ceramicist and longtime Peabody staff member Maishe Dickman, who built the group several vessels based on ancient pottery remains, we were able to construct a filter system that allowed water to percolate through the malt.
                     This water was kept at 150 degrees fahrenheit to ensure that both alpha and beta amylase were active and able to efficiently extract sugars.
                     From there, the group used an iodine test to keep an eye on the wort’s starch levels. When iodine is added to a liquid sample like our wort, the sample will either turn blue or brown.
@@ -208,7 +207,7 @@ export default function BrewingPage() {
                 <p className="mt-2  max-w-[90rem] mx-auto text-xl leading-relaxed">
                     <span className="font-bold text-white">Conducted by Megan Suka</span>
                     <br /><br />
-                    Vanessa Torros and Zane Johnson, Yale postdocs in Molecular Biology and Biochemistry respectively, sat quietly next to a complicated-looking beer keg amidst the spirited chaos of students preparing for the Babylonian Feast. From this impressive keg, Vanessa had poured a small amount of a pinkish-looking liquid into a modest solo cup. I noticed her dipping a pH strip into this mixture and, having piqued my curiosity, I decided to walk over and ask what they were up to.
+                    Vanessa Todorow and Zane Johnson, Yale postdocs in Molecular Biology and Biochemistry respectively, sat quietly next to a complicated-looking beer keg amidst the spirited chaos of students preparing for the Babylonian Feast. From this impressive keg, Vanessa had poured a small amount of a pinkish-looking liquid into a modest solo cup. I noticed her dipping a pH strip into this mixture and, having piqued my curiosity, I decided to walk over and ask what they were up to.
                     <br /><br />
                     <span className="font-extrabold text-white">Megan:</span> Can you tell me a little bit about this project?
                     <br />
