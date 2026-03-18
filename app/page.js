@@ -64,7 +64,7 @@ export default function HomePage() {
         </nav>
       </header>
 
-      {/* Overlay for better text readability */}
+      {/* Overlay for better text readability */} {/* Adds color contrast and to make the text pop against the background image */}
       <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Main Content */}
